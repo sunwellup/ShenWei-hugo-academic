@@ -54,7 +54,7 @@ email: ""
 # Highlight the author in author lists? (true/false)
 highlight_name: false
 ---
-· I am a Ph.D. student in the Department of Architecture and Architectural Engineering at Kyoto University, supervised by Prof. Ohsaki
+· I am a Ph.D. student in the Department of Architecture and Architectural Engineering at Kyoto University, supervised by <a href="http://www.se-lab.archi.kyoto-u.ac.jp/ohsaki/index.html">Prof. Ohsaki</a> 
 
 
 
