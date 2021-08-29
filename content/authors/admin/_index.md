@@ -27,13 +27,13 @@ Research interests:
 education:
   courses:
   - course: PhD in Architecture and Architectural Engineering
-    institution: Kyoto University
+    institution: Kyoto University, Japan
     year: 2018
   - course: MEng in Civil Engineering
-    institution: Chongqing University
+    institution: Chongqing University, P.R.China
     year: 2015
   - course: BSc in Civil Engineering
-    institution: Chongqing University
+    institution: Chongqing University, P.R.China
     year: 2011
 
 # Social/Academic Networking
