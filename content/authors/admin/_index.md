@@ -14,9 +14,9 @@ organizations:
   url: https://www.ar.t.kyoto-u.ac.jp/en/information/laboratory/dynamics?set_language=en
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+# bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
-# Interests to show in About widget
+# Research Interests to show in About widget
 interests:
 - Strutural Optimization
 - Reliability Analysis
