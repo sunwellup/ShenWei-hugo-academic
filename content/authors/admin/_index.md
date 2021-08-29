@@ -27,13 +27,13 @@ education:
   courses:
   - course: PhD in Architecture and Architectural Engineering
     institution: Kyoto University, Japan
-    year: 2018
+    year: 2018-present
   - course: MEng in Civil Engineering
     institution: Chongqing University, P.R.China
-    year: 2015
+    year: 2015-2018
   - course: BSc in Civil Engineering
     institution: Chongqing University, P.R.China
-    year: 2011
+    year: 2011-2015
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -54,10 +54,10 @@ email: ""
 # Highlight the author in author lists? (true/false)
 highlight_name: false
 ---
+· I am a Ph.D. student in the Department of Architecture and Architectural Engineering at Kyoto University, supervised by Prof. Ohsaki
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
 
