@@ -5,7 +5,7 @@
 
 # Appearance
 
-theme: Dark1
+theme: my_theme
 day_night: true
 font: 'Classic'
 font_size: L
