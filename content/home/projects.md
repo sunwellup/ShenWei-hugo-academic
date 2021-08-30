@@ -28,15 +28,15 @@ content:
 #  - name: All
 #    tag: '*'
   - name: Structural optimization of plane frame
-    tag: Deep Learning
+    tag: shape and topogy optimization of plane frame
   - name: Reliability analysis using response surface method
-    tag: Demo
+    tag: Reliability analysis using response surface method
   - name: Investigation of virtual element method
-    tag: Demo
+    tag: Investigation of virtual element method
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.
-  columns: '2'
+  columns: '1'
 
   # Toggle between the various page layout types.
   #   1 = List
