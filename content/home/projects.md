@@ -27,12 +27,12 @@ content:
   filter_button:
 #  - name: All
 #    tag: '*'
-  - name: shape and topogy optimization of plane frame
+  - name: Shape and topogy optimization of plane frame
     tag: shape and topogy optimization of plane frame
   - name: Reliability analysis using response surface method
-    tag: Reliability analysis using response surface method
+    tag: reliability analysis using response surface method
   - name: Investigation of virtual element method
-    tag: Investigation of virtual element method
+    tag: investigation of virtual element method
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.
