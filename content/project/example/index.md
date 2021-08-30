@@ -2,7 +2,7 @@
 title: Shape and topology optimization of plane frame
 summary: An example of using the in-built project page.
 tags:
-- Shape and topology optimization of plane frame
+- shape and topogy optimization of plane frame
 date: "2016-04-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
