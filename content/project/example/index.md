@@ -3,7 +3,7 @@ title: Shape and topology optimization of plane frame
 summary: An example of using the in-built project page.
 tags:
 - shape and topogy optimization of plane frame
-date: "2016-04-27T00:00:00Z"
+date: "2021-08-30T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -13,10 +13,10 @@ image:
   focal_point: Smart
 
 links:
-- icon: twitter
-  icon_pack: fab
-  name: Follow
-  url: https://twitter.com/georgecushen
+# - icon: twitter
+#  icon_pack: fab
+#  name: Follow
+#  url: https://twitter.com/georgecushen
 url_code: ""
 url_pdf: ""
 url_slides: ""
