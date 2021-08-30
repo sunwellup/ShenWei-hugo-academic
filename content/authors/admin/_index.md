@@ -59,6 +59,6 @@ highlight_name: false
   
   ● My research interests lie in the areas of structural optimization and computational mechanics, including structural optimization under uncertainty (such as reliability-based structural optimization and robust optimization), as well as the combination of computational mechanics with structural optimization 
   
-  ● I received my Master's degree in Chongqing University supervised by <a href="http://civil.cqu.edu.cn/info/1322/6160.htm" target="_blank" style="color:#2D7BD1;text- decoration:underline;">Prof.Wenliang Fan</a> <br/>
+  ● I received my Master's degree in Chongqing University supervised by <a href="http://civil.cqu.edu.cn/info/1322/6160.htm" target="_blank" style="color:#2D7BD1;text- decoration:underline;">Prof.Wenliang Fan</a> 
 <DIV>
 
