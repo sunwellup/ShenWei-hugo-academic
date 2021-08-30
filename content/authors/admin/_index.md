@@ -55,7 +55,7 @@ email: ""
 highlight_name: false
 ---
 <DIV align="justify">
-  ● I am a Ph.D. student in the Department of Architecture and Architectural Engineering at Kyoto University, supervised by <a href="http://www.se-lab.archi.kyoto-   u.ac.jp/ohsaki/index.html" target="_blank" style="color:#2D7BD1;text-decoration:underline;">Prof.Ohsaki Makoto.</a>
+  ● I am a Ph.D. student in the Department of Architecture and Architectural Engineering at Kyoto University, supervised by <a href="http://www.se-lab.archi.kyoto-   u.ac.jp/ohsaki/index.html" target="_blank" style="color:#2D7BD1;text-decoration:underline;">Prof.Ohsaki Makoto</a>.
 <DIV> <br />
   
 <DIV align="justify">
@@ -63,6 +63,6 @@ highlight_name: false
 <DIV> <br />
   
 <DIV align="justify">
-● I received my Master's degree in Chongqing University, supervised by <a href="http://ecivil.cqu.edu.cn/info/1011/1389.htm" target="_blank" style="color:#2D7BD1;text-decoration:underline;">Prof.Wenliang Fan.</a> <br /> 
+● I received my Master's degree in Chongqing University, supervised by <a href="http://ecivil.cqu.edu.cn/info/1011/1389.htm" target="_blank" style="color:#2D7BD1;text-decoration:underline;">Prof.Wenliang Fan</a>. <br /> 
 <DIV> <br />
 
