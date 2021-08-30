@@ -1,5 +1,5 @@
 ---
-title: Posts
+title: Presentations
 cms_exclude: true
 
 # View.
