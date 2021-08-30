@@ -27,7 +27,7 @@ content:
   filter_button:
 #  - name: All
 #    tag: '*'
-  - name: Structural optimization of plane frame
+  - name: shape and topogy optimization of plane frame
     tag: shape and topogy optimization of plane frame
   - name: Reliability analysis using response surface method
     tag: Reliability analysis using response surface method
