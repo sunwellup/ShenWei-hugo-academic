@@ -34,7 +34,7 @@
 
         {{ range $person.organizations }}
         <h3 itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
-          {{ with .url }}<a href="{{ . }}" target="_blank" itemprop="url" rel="noopener">{{ end }}
+          {{ with .url }}<a href="{{ . }}" target="_blank" itemprop="url" rel="noopener" style="color:#2D7BD1;text-decoration:underline;">{{ end }}
           <span itemprop="name">{{ .name }}</span>
           {{ if .url }}</a>{{ end }}
         </h3>
