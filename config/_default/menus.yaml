@@ -10,7 +10,7 @@ main:
   - name: Presentations
     url: '#posts'
     weight: 20
-  - name: Projects
+  - name: Research Topics
     url: '#projects'
     weight: 11
   - name: Talks
