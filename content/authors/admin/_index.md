@@ -55,6 +55,4 @@ email: ""
 # Highlight the author in author lists? (true/false)
 highlight_name: false
 ---
-● I am a Ph.D. student in the Department of Architecture and Architectural Engineering at Kyoto University, supervised by <a href="http://www.se-lab.archi.kyoto-u.ac.jp/ohsaki/index.html" target="_blank" style="color:#2D7BD1;text-decoration:underline;">Prof.Ohsaki Makoto</a> 
-● My research interests lie in the areas of structural optimization and computational mechanics, including structural optimization under uncertainty (such as reliability-based structural optimization and robust optimization), as well as the combination of computational mechanics with structural optimization.
-● I received my Master's degree in Chongqing University supervised by Prof.Wenliang Fan
+I am a Ph.D. student in the Department of Architecture and Architectural Engineering at Kyoto University, supervised by <a href="http://www.se-lab.archi.kyoto-u.ac.jp/ohsaki/index.html" target="_blank" style="color:#2D7BD1;text-decoration:underline;">Prof.Ohsaki Makoto</a> 
