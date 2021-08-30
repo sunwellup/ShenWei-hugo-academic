@@ -13,8 +13,8 @@ main:
   - name: Research Topics
     url: '#projects'
     weight: 11
-  - name: Reading nots
-    url: '#Reading-nots'
+  - name: Reading notes
+    url: '#Reading-notes'
     weight: 40
   - name: Publications
     url: '#publications'
