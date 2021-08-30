@@ -64,5 +64,5 @@ highlight_name: false
   
 <DIV align="justify">
 ● I received my Master's degree in Chongqing University supervised by <a href="http://civil.cqu.edu.cn/info/1322/6160.htm" target="_blank" style="color:#2D7BD1;text- decoration:underline;">Prof.Wenliang Fan.</a> <br /> 
-<DIV>  
+<DIV> <br />
 
