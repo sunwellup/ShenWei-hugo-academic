@@ -9,7 +9,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 21
 
-title: Projects
+title: Research Topics
 subtitle: ''
 
 content:
@@ -27,9 +27,11 @@ content:
   filter_button:
   - name: All
     tag: '*'
-  - name: Deep Learning
+  - name: Structural optimization of plane frame
     tag: Deep Learning
-  - name: Other
+  - name: Reliability analysis using response surface method
+    tag: Demo
+  - name: Investigation of virtual element method
     tag: Demo
 
 design:
