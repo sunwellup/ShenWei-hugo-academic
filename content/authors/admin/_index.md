@@ -10,7 +10,6 @@ role: Phd student
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  {style="color: red"}
 - name: Department of Architecture and Architectural Engineering, Kyoto University
   url: https://www.ar.t.kyoto-u.ac.jp/en/information/laboratory/dynamics?set_language=en
 
