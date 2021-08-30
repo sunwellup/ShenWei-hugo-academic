@@ -17,7 +17,7 @@ main:
     url: '#Reading-nots'
     weight: 40
   - name: Publications
-    url: '#Publications'
+    url: '#publications'
     weight: 12
   - name: Contact
     url: '#contact'
