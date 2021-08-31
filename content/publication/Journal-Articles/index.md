@@ -44,7 +44,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
+url_pdf: 'https://github.com/sunwellup/ShenWei-hugo-academic/edit/master/content/publication/Journal-Articles/'
 url_code: ''
 url_dataset: ''
 url_poster: ''
