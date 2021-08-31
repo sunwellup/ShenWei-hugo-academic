@@ -44,7 +44,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://github.com/sunwellup/ShenWei-hugo-academic/edit/master/content/publication/Journal-Articles/'
+url_pdf: 'https://github.com/sunwellup/ShenWei-hugo-academic/blob/master/content/publication/Journal-Articles/Geometry%20and%20topology%20optimization%20of%20plane%20frames%20for%20compliance%20minimization%20using%20force%20density%20method%20for%20geometry%20model.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
