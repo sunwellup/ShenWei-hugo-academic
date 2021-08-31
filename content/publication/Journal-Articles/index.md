@@ -1,5 +1,5 @@
 ---
-title: <DIV align="justify">Geometry and topology optimization of plane frames for compliance minimization using force density method for geometry model<DIV>
+title: {{< align justify "Geometry and topology optimization of plane frames for compliance minimization using force density method for geometry model" >}}
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
