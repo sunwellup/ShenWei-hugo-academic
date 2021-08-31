@@ -1,6 +1,7 @@
 ---
+<div align="center">
 title: Geometry and topology optimization of plane frames for compliance minimization using force density method for geometry model
-
+<div>
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
@@ -13,11 +14,11 @@ authors:
 # - "Equal contribution"
 # - "Equal contribution"
 
-date: "2013-07-01T00:00:00Z"
+date: "2021T00:00:00Z"
 doi: "https://doi.org/10.1007/s00366-019-00923-w"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2021-08-31T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -28,9 +29,9 @@ publication_types: ["2"]
 # Publication name and optional abbreviated publication name.
 publication: Engineering with Computers
 # publication_short: In *ICW*
-
-abstract: A new method is proposed for simultaneous optimization of shape, topology and cross section of plane frames. Compliance against specified loads is minimized under constraint on structural volume. Difficulties caused by the melting nodes can be alleviated to some extent by introducing force density as design variables for defining the geometry, where the side constraints are assigned for force density to indirectly avoid the existence of extremely short members. Force density method is applied to an auxiliary cable-net model with different boundary and loading conditions so that the regularity of force density matrix is ensured by positive force densities. Sensitivity coefficients of the objective and constraint functions with respect to the design variables are also explicitly calculated. After the optimal geometry of the frame is obtained, the topology is further improved by removing the thin members and combining closely spaced nodes. It is demonstrated in the numerical examples of three types of frames that rational geometry and topology can be achieved using the proposed method, and the effect of bending moment on the optimal solution is also discussed.
-
+<div align="center">
+  abstract: A new method is proposed for simultaneous optimization of shape, topology and cross section of plane frames. Compliance against specified loads is minimized under  constraint on structural volume. Difficulties caused by the melting nodes can be alleviated to some extent by introducing force density as design variables for defining the geometry, where the side constraints are assigned for force density to indirectly avoid the existence of extremely short members. Force density method is applied to an auxiliary cable-net model with different boundary and loading conditions so that the regularity of force density matrix is ensured by positive force densities. Sensitivity coefficients of the objective and constraint functions with respect to the design variables are also explicitly calculated. After the optimal geometry of the frame is obtained, the topology is further improved by removing the thin members and combining closely spaced nodes. It is demonstrated in the numerical examples of three types of frames that rational geometry and topology can be achieved using the proposed method, and the effect of bending moment on the optimal solution is also discussed.
+<div>
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
