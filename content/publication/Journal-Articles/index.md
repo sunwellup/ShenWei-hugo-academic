@@ -45,7 +45,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'content/publication/journal-articles/Shen-Ohsaki2021-Article-GeometryAndTopologyOptimizatio.pdf'
+url_pdf: 'https://github.com/sunwellup/ShenWei-hugo-academic/content/publication/Journal-Articles/Shen-Ohsaki2021-Article-GeometryAndTopologyOptimizatio.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
