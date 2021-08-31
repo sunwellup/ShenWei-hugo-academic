@@ -28,7 +28,7 @@ publication_types: ["1"]
 # Publication name and optional abbreviated publication name.
 publication: Engineering with Computers
 # publication_short: In *ICW*
-  abstract: A new method is proposed for simultaneous optimization of shape, topology and cross section of plane frames. Compliance against specified loads is minimized under constraint on structural volume. Difficulties caused by the melting nodes can be alleviated to some extent by introducing force density as design variables for defining the geometry, where the side constraints are assigned for force density to indirectly avoid the existence of extremely short members. Force density method is applied to an auxiliary cable-net model with different boundary and loading conditions so that the regularity of force density matrix is ensured by positive force densities. Sensitivity coefficients of the objective and constraint functions with respect to the design variables are also explicitly calculated. After the optimal geometry of the frame is obtained, the topology is further improved by removing the thin members and combining closely spaced nodes. It is demonstrated in the numerical examples of three types of frames that rational geometry and topology can be achieved using the proposed method, and the effect of bending moment on the optimal solution is also discussed.
+abstract: A new method is proposed for simultaneous optimization of shape, topology and cross section of plane frames. Compliance against specified loads is minimized under constraint on structural volume. Difficulties caused by the melting nodes can be alleviated to some extent by introducing force density as design variables for defining the geometry, where the side constraints are assigned for force density to indirectly avoid the existence of extremely short members. Force density method is applied to an auxiliary cable-net model with different boundary and loading conditions so that the regularity of force density matrix is ensured by positive force densities. Sensitivity coefficients of the objective and constraint functions with respect to the design variables are also explicitly calculated. After the optimal geometry of the frame is obtained, the topology is further improved by removing the thin members and combining closely spaced nodes. It is demonstrated in the numerical examples of three types of frames that rational geometry and topology can be achieved using the proposed method, and the effect of bending moment on the optimal solution is also discussed.
   
 # Summary. An optional shortened abstract.
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -65,11 +65,22 @@ image:
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects:
-- []
+- example
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-# slides: example
+slides: example
+---
+
+{{% callout note %}}
+Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+{{% /callout %}}
+
+{{% callout note %}}
+Create your slides in Markdown - click the *Slides* button to check out the example.
+{{% /callout %}}
+
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/).
