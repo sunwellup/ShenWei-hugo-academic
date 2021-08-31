@@ -5,19 +5,19 @@ title: "Geometry and topology optimization of plane frames for compliance minimi
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
-- admin
-- Robert Ford
+- Wei Shen
+- Makoto Ohsaki
 
 # Author notes (optional)
-author_notes:
-- "Equal contribution"
-- "Equal contribution"
+# author_notes:
+# - "Equal contribution"
+# - "Equal contribution"
 
-date: "2013-07-01T00:00:00Z"
-doi: ""
+date: "2021-07-01T00:00:00Z"
+doi: "https://doi.org/10.1007/s00366-019-00923-w"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2021-08-31T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
