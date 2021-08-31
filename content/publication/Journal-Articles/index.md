@@ -1,6 +1,5 @@
 ---
-
-title: Geometry and topology optimization of plane frames for compliance minimization using force density method for geometry model 
+title: "Geometry and topology optimization of plane frames for compliance minimization using force density method for geometry model"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
@@ -15,7 +14,7 @@ authors:
 # - "Equal contribution"
 
 date: "2021T00:00:00Z"
-doi: "https://doi.org/10.1007/s00366-019-00923-w"
+doi: ""
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2021-08-31T00:00:00Z"
@@ -29,8 +28,10 @@ publication_types: ["2"]
 # Publication name and optional abbreviated publication name.
 publication: Engineering with Computers
 # publication_short: In *ICW*
-<div align="center">
-  abstract: A new method is proposed for simultaneous optimization of shape, topology and cross section of plane frames. Compliance against specified loads is minimized under  constraint on structural volume. Difficulties caused by the melting nodes can be alleviated to some extent by introducing force density as design variables for defining the geometry, where the side constraints are assigned for force density to indirectly avoid the existence of extremely short members. Force density method is applied to an auxiliary cable-net model with different boundary and loading conditions so that the regularity of force density matrix is ensured by positive force densities. Sensitivity coefficients of the objective and constraint functions with respect to the design variables are also explicitly calculated. After the optimal geometry of the frame is obtained, the topology is further improved by removing the thin members and combining closely spaced nodes. It is demonstrated in the numerical examples of three types of frames that rational geometry and topology can be achieved using the proposed method, and the effect of bending moment on the optimal solution is also discussed.
+<div align="justify">
+  A new method is proposed for simultaneous optimization of shape, topology and cross section of plane frames. Compliance against specified loads is minimized under constraint on structural volume. Difficulties caused by the melting nodes can be alleviated to some extent by introducing force density as design variables for defining the geometry, where the side constraints are assigned for force density to indirectly avoid the existence of extremely short members. Force density method is applied to an auxiliary cable-net model with different boundary and loading conditions so that the regularity of force density matrix is ensured by positive force densities. Sensitivity coefficients of the objective and constraint functions with respect to the design variables are also explicitly calculated. After the optimal geometry of the frame is obtained, the topology is further improved by removing the thin members and combining closely spaced nodes. It is demonstrated in the numerical examples of three types of frames that rational geometry and topology can be achieved using the proposed method, and the effect of bending moment on the optimal solution is also discussed.
+  
+Keywords: Shape and topology optimization; Force density method; Sequential quadratic programming; Compliance minimization; Plane frame;
 <div>
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -45,7 +46,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://github.com/sunwellup/ShenWei-hugo-academic/blob/master/content/publication/Journal-Articles/Geometry%20and%20topology%20optimization%20of%20plane%20frames%20for%20compliance%20minimization%20using%20force%20density%20method%20for%20geometry%20model.pdf'
+url_pdf: ''
 url_code: ''
 url_dataset: ''
 url_poster: ''
@@ -56,10 +57,10 @@ url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
-# image:
-#  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
-#  focal_point: ""
-#  preview_only: false
+image:
+  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+  focal_point: ""
+  preview_only: false
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
@@ -74,15 +75,15 @@ projects:
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-# slides: example
-# ---
+slides: example
+---
 
-# {{% callout note %}}
-# Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-# {{% /callout %}}
+{{% callout note %}}
+Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+{{% /callout %}}
 
-# {{% callout note %}}
-# Create your slides in Markdown - click the *Slides* button to check out the example.
-# {{% /callout %}}
-# Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/).
+{{% callout note %}}
+Create your slides in Markdown - click the *Slides* button to check out the example.
+{{% /callout %}}
 
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/).
