@@ -1,13 +1,13 @@
 ---
 
-title: <div align="center"> Geometry and topology optimization of plane frames for compliance minimization using force density method for geometry model <div>
+title: Geometry and topology optimization of plane frames for compliance minimization using force density method for geometry model 
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
-- Shen, Wei
-- Ohsaki, Makoto
+- Wei Shen
+- Makoto Ohsaki
 
 # Author notes (optional)
 # author_notes:
