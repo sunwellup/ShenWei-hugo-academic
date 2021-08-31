@@ -45,7 +45,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
+url_pdf: 'Geometry and topology optimization of plane frames for compliance minimization using force density method for geometry model.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
