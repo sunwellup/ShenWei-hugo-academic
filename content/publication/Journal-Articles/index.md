@@ -45,7 +45,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://shen-wei.netlify.app/publication/journal-articles/Shen-Ohsaki2021-Article-GeometryAndTopologyOptimizatio.pdf'
+url_pdf: 'content/publication/journal-articles/Shen-Ohsaki2021-Article-GeometryAndTopologyOptimizatio.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
