@@ -8,16 +8,16 @@ main:
     url: '#about'
     weight: 10
   - name: Presentations
-    url: '/post'
+    url: '/presentations'
     weight: 20
   - name: Research Topics
-    url: '#projects'
+    url: '/research-topic'
     weight: 11
   - name: Reading notes
     url: '#Reading-notes'
     weight: 40
   - name: Publications
-    url: '#publications'
+    url: '/publication'
     weight: 12
   - name: Contact
     url: '#contact'
