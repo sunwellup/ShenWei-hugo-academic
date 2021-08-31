@@ -26,10 +26,10 @@ publishDate: "2021-08-31T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Wowchemy Conference*
-publication_short: In *ICW*
+publication: Engineering with Computers
+# publication_short: In *ICW*
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: A new method is proposed for simultaneous optimization of shape, topology and cross section of plane frames. Compliance against specified loads is minimized under constraint on structural volume. Difficulties caused by the melting nodes can be alleviated to some extent by introducing force density as design variables for defining the geometry, where the side constraints are assigned for force density to indirectly avoid the existence of extremely short members. Force density method is applied to an auxiliary cable-net model with different boundary and loading conditions so that the regularity of force density matrix is ensured by positive force densities. Sensitivity coefficients of the objective and constraint functions with respect to the design variables are also explicitly calculated. After the optimal geometry of the frame is obtained, the topology is further improved by removing the thin members and combining closely spaced nodes. It is demonstrated in the numerical examples of three types of frames that rational geometry and topology can be achieved using the proposed method, and the effect of bending moment on the optimal solution is also discussed.
 
 # Summary. An optional shortened abstract.
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
