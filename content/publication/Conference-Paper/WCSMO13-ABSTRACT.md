@@ -27,7 +27,7 @@ publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
 publication: In 13th World Congress on Structural and Multidisciplinary Optimization, Beijing, China
-publication_short: In *WCSMO* 13
+publication_short: In *WCSMO*13
 # publication_short: In *ICW*
 
 
