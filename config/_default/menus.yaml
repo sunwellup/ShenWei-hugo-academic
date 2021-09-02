@@ -10,7 +10,7 @@ main:
   - name: Presentations
     url: '/presentations'
     weight: 20
-  - name: Research Topics
+  - name: Research Interests
     url: '/research-topic'
     weight: 11
   - name: Reading notes
