@@ -26,8 +26,8 @@ publishDate: "2021-09-02T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In Asian Congress of Structural and Multidisciplinary Optimization 2020, Seoul, Korea(On line)
-publication_short: In *ACSMO* 2020
+publication: In Architecture Institute of Japan 2019, Hokuriku, Japan
+publication_short: In *AIJ* 2019
 # publication_short: In *ICW*
 
 
@@ -44,7 +44,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'pdf/ACSMO2020-Abstract20200106.pdf'
+url_pdf: 'pdf/AIJ-2019.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
