@@ -44,7 +44,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'pdf/Shen-Ohsaki2021-Article-GeometryAndTopologyOptimizatio.pdf'
+url_pdf: 'pdf/WCSMO13-ABSTRACT.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
