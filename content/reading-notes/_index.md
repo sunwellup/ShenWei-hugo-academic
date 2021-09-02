@@ -1,5 +1,5 @@
 ---
-title: Reading Notes
+title: Reading notes
 # cms_exclude: true
 
 # View.
