@@ -1,8 +1,11 @@
 ---
 title: Investigation of virtual element method
-summary: Virtual element method (VEM) is considered as as general finite element method because it can used for any arbitrary polygon meshes. In this research topic the theoretical basis and application properties of VEM are studied and investigated.
+summary: Virtual element method (VEM) is considered as as general finite element method because it can used for any arbitrary polygon meshes. The main idea of VEM is to project the function in virtual element space (i.e., the space of shape functions) to a polynomial space with predefined order.
 tags:
-- shape and topogy optimization of plane frame
+- virtual element method
+- Contact problem
+- Elasticity
+- small and finite deformations
 date: "2021-08-30T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
