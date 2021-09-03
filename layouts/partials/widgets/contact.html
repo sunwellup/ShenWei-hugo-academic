@@ -148,7 +148,7 @@
       <!-- <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }}>{{.name|markdownify|emojify|safeHTML}}</a> -->
       <a {{ $target | safeHTMLAttr }}>{{.name|markdownify|emojify|safeHTML}}</a>      
     </li>
-    <img src="assets/media/icon.png" alt="QRCode WeChat">
+    <img src="{{assets/media/icon.png}}" alt="QRCode WeChat">
     {{ end }}
 
   </ul>
