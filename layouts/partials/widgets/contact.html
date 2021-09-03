@@ -144,9 +144,7 @@
     {{ end }}
     <li>
       <i class="fa-li {{ $pack }} {{ $pack_prefix }}-{{ .icon }} fa-2x" aria-hidden="true"></i>
-      <!-- <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }}>{{.name|markdownify|emojify|safeHTML}}</a> -->
-      <a {{ $target | safeHTMLAttr }}>{{.name|markdownify|emojify|safeHTML}}</a>
-      <!-- {{<figure src="img/qr-code.jpg" alt="QRCode WeChat" >}} -->
+      <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }}>{{.name|markdownify|emojify|safeHTML}}</a>
     </li>
     {{ end }}
 
