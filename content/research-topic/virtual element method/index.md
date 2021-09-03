@@ -35,5 +35,5 @@ url_video: ""
 The main idea of VEM is to project the function in virtual element space (i.e., the space of shape functions) to a polynomial space with predefined order.
 
 ddd 
-{{< figure src="VEM-1.jpg" title="DOFs of second-order VEM" numbered="true" >}}
+{{< figure src="VEM-1.png" title="DOFs of second-order VEM" numbered="true" >}}
 
