@@ -1,6 +1,6 @@
 ---
 title: Investigation of virtual element method
-summary: Virtual element method (VEM) is considered as as general finite element method because it can used for any arbitrary polygon meshes. The main idea of VEM is to project the function in virtual element space (i.e., the space of shape functions) to a polynomial space with predefined order.
+summary: Virtual element method (VEM) is considered as as general finite element method because it can used for any arbitrary polygon meshes. 
 tags:
 - virtual element method
 - Contact problem
@@ -32,7 +32,8 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 # slides: example
 ---
-dddd
+The main idea of VEM is to project the function in virtual element space (i.e., the space of shape functions) to a polynomial space with predefined order.
 
-
+ddd 
+{{< figure src="VEM-1.jpg" title="DOFs of second-order VEM" numbered="true" >}}
 
