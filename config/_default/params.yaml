@@ -40,7 +40,7 @@ address:
 contact_links:
   - icon: comments
     icon_pack: fas
-    name: WeChat
+    name: WeChat <figure src="img/qr-code.jpg" alt="QRCode WeChat">
     link: ''
 
 # Site header
