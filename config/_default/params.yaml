@@ -5,7 +5,7 @@
 
 # Appearance
 
-theme: dark-custome
+theme: Dark_customized
 day_night: true
 font: ''
 font_size: L
@@ -22,12 +22,12 @@ twitter: ''
 
 email: shen.wei.28a@st.kyoto-u.ac.jp
 address:
-  street: 450 Serra Mall
-  city: Stanford
-  region: CA
-  postcode: '94305'
-  country: United States
-  country_code: US
+  street: Dept. of Architecture & Architectural Engineering, Kyoto University C2 Building, Kyotodaigaku-katsura, Nishikyo-ku, Kyoto, 615-8540, Japan
+  city: 
+  region: 
+  postcode: ''
+  country: Japan
+  country_code: JP
 # coordinates:
 #  latitude: '37.4275'
 #  longitude: '-122.1697'
