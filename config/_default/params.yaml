@@ -22,25 +22,25 @@ twitter: ''
 
 email: shen.wei.28a@st.kyoto-u.ac.jp
 address:
-  street: Dept. of Architecture & Architectural Engineering, Kyoto University, C2 Building, Kyotodaigaku-katsura, Nishikyo-ku
-  city: Kyoto
+  street: Dept. of Architecture & Architectural Engineering, Kyoto University, C2 Building, Kyotodaigaku-katsura, Nishikyo-ku, 615-8540, Kyoto, Japan
+  city: 
   region: 
-  postcode: '615-8540'
-  country: Japan
+  postcode: ''
+  country: 
   country_code: 
 # coordinates:
 #  latitude: '37.4275'
 #  longitude: '-122.1697'
-directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+# directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
 # office_hours:
 #   - 'Monday 10:00 to 13:00'
 #   - 'Wednesday 09:00 to 10:00'
 # appointment_url: 'https://calendly.com'
-contact_links:
-  - icon: comments
-    icon_pack: fas
-    name: Discuss on Forum
-    link: 'https://discourse.gohugo.io'
+# contact_links:
+#   - icon: comments
+#     icon_pack: fas
+#     name: Discuss on Forum
+#     link: 'https://discourse.gohugo.io'
 
 # Site header
 
