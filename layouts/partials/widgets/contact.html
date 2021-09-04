@@ -146,9 +146,9 @@
     <li>
       <i class="fa-li {{ $pack }} {{ $pack_prefix }}-{{ .icon }} fa-2x" aria-hidden="true"></i>
       <!-- <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }}>{{.name|markdownify|emojify|safeHTML}}</a> -->
-      <a {{ $target | safeHTMLAttr }}>{{.name|markdownify|emojify|safeHTML}}</a>      
+      <a {{ $target | safeHTMLAttr }}>{{.name|markdownify|emojify|safeHTML}}</a>   
+      <img src = "https://shen-wei.netlify.app/img/qr-code.jpg">
     </li>
-    <img src = "https://shen-wei.netlify.app/img/qr-code.jpg">
     {{ end }}
     
   </ul>
