@@ -148,8 +148,6 @@
       <!-- <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }}>{{.name|markdownify|emojify|safeHTML}}</a> -->
       <a {{ $target | safeHTMLAttr }}>{{.name|markdownify|emojify|safeHTML}}</a>      
     </li>
-    {{- $image := resources.Get "images/tn.png" -}}
-    <img src="{{ $image.RelPermalink }}" alt="QRCode WeChat">
     {{ end }}
     
   </ul>
