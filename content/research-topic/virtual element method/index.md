@@ -33,8 +33,10 @@ url_video: ""
 # slides: example
 ---
 <DIV align="justify">
-The main idea of VEM is to project the function in virtual element space (i.e., the space of shape functions) to a polynomial space with predefined order. For example, consider a standard boundary problem 
+The main idea of VEM is to project the function in virtual element space (i.e., the space of shape functions) to a polynomial space with predefined order. For example, consider a standard boundary problem with a domain **\Omega** 
 
 <DIV align="justify"> 
+  
+  
 {{< figure src="VEM-1.png" title="DOFs of second-order VEM" numbered="true" >}}
 
