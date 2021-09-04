@@ -148,7 +148,8 @@
       <!-- <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }}>{{.name|markdownify|emojify|safeHTML}}</a> -->
       <a {{ $target | safeHTMLAttr }}>{{.name|markdownify|emojify|safeHTML}}</a>      
     </li>
-
+    {{ end }}
+    
   </ul>
 
   {{ if and site.Params.map.provider $data.coordinates.latitude }}
