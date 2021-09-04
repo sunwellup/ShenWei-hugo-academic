@@ -147,10 +147,10 @@
       <i class="fa-li {{ $pack }} {{ $pack_prefix }}-{{ .icon }} fa-2x" aria-hidden="true"></i>
       <!-- <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }}>{{.name|markdownify|emojify|safeHTML}}</a> -->
       <a {{ $target | safeHTMLAttr }}>{{.name|markdownify|emojify|safeHTML}}</a>   
-      <img src = "https://shen-wei.netlify.app/img/qr-code.jpg">
+      <!-- BaseURL -->
+      <img src = "https://shen-wei.netlify.app/img/qr-code.jpg" height = 100 width = 100>
     </li>
-    {{ end }}
-    
+    {{ end }}    
   </ul>
 
   {{ if and site.Params.map.provider $data.coordinates.latitude }}
