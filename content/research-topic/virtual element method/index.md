@@ -33,9 +33,12 @@ url_video: ""
 # slides: example
 ---
 <DIV align="justify">
-The main idea of VEM is to project the function in virtual element space (i.e., the space of shape functions) to a polynomial space with predefined order. For example, consider a standard boundary problem with a domain $ \Omega $
-
+  VEM is a recently proposed numerical discretization technique in Galerkin framework which is inspired by mimic finite difference (MFD) method, and since the date of birth it has been extensively developed and applied to a wide range of engineering problems. The core of the method is to construct a projector which projects the function in local virtual element space (or say, local shape function space) to a polynomial space with prescribed order. In this way VEM avoids the explicit construction of shape function and its integral over the element domain; and thus VEM is able to handle arbitrary polygonal mesh. 
+<\DIV>   
 <DIV align="justify"> 
+  In order to give a simple and general illustration of how VEM works, here I take a linear elasticity boundary value problem in 2-dimensional domain **$ \Omega $** as example. The domain is partitioned into arbitrary polygonal meshes *T_h*, and suppose one of the element is pentagon as shown in Fig. 1.  
+  
+<\DIV> 
   
   
 {{< figure src="VEM-1.png" title="DOFs of second-order VEM" numbered="true" >}}
