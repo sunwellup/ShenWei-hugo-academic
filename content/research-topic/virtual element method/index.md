@@ -32,6 +32,7 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 # slides: example
 ---
+
 <DIV align="justify">
   VEM is a recently proposed numerical discretization technique in Galerkin framework which is inspired by mimic finite difference (MFD) method, and since the date of birth it has been extensively developed and applied to a wide range of engineering problems. The core of the method is to construct a projector which projects the function in local virtual element space (or say, local shape function space) to a polynomial space with prescribed order. In this way VEM avoids the explicit construction of shape function and its integral over the element domain; and thus VEM is able to handle arbitrary polygonal mesh. **b**
 </DIV>   
