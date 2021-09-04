@@ -28,4 +28,4 @@ subtitle:
 # design:
 #  columns: '1'
 ---
-
+{{- $image := resources.Get "images/tn.png" -}}
