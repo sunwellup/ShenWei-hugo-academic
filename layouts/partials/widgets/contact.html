@@ -149,7 +149,7 @@
       <a {{ $target | safeHTMLAttr }}>{{.name|markdownify|emojify|safeHTML}}</a>      
     </li>
     <figure>
-      <img src="img/qr-code.jpg" alt="QRCode WeChat"/>
+      <img src="{{<baseurl>}}/qr-code.jpg" alt="QRCode WeChat">
     </figure>
     {{ end }}
 
