@@ -52,12 +52,12 @@ where in Eq.(1) <i>$\boldsymbol\sigma$</i> and <i>$\boldsymbol\epsilon$</i> are 
   
 <font size="4" font face = "Times New Roman">
 <DIV align="justify">  
- Generally the solution $ boldsymbol{u} $ is approximated by a function in the subspace of $ V_h(K)\times V_h(K) \subseteq V(K)\times V(K) $, which is called local virtual element space (or say, local shape function space). Let the element in $ V_h(K)\times V_h(K) $ denote as $ boldsymbol{v}_h $, the the vector-value function $ boldsymbol{v}_h $ in second-order VEM has the following properties:<br/>
+ Generally the solution $ boldsymbol{u} $ is approximated by a function in the subspace of $ V_h(K)\times V_h(K) \subseteq V(K)\times V(K) $, which is called local virtual element space (or say, local shape function space). Let the element in $ V_h(K)\times V_h(K) $ denote as $ \boldsymbol{v}_h $, the the vector-value function $ boldsymbol{v}_h $ in second-order VEM has the following properties:<br/>
   <ul>
   <li> $ \boldsymbol{v}_h $ is continuous on the boundary of element <i>K</i> </li>
   <li> $ \boldsymbol{v}_h $ is a vector with second-order polynomial components on each edge of element <i>K</i> </li>
   <li> $ \Delta \boldsymbol{v}_h $ is a vector with second-order polynomial components on each edge of element <i>K</i> </li> 
-  <ul/>  
+  </ul>  
 where $ \Delta $ is the Laplace operator. The corresponding degrees of freedom (DOFs) of element <i>K</i> can be classified into the following three types <br/>
   <dl>
     <dt> (i) The values of $ \boldsymbol{v}_h $ at the 5 vertices of element <i>K</i> </dt>
@@ -68,8 +68,10 @@ where $ \Delta $ is the Laplace operator. The corresponding degrees of freedom (
     \frac{1}{\lvert \boldsymbol{\Omega}^K \rvert} \int_{\boldsymbol{\Omega}^K} \boldsymbol{v}_h \cdot \boldsymbol{p}_2 d\boldsymbol{\Omega}^K    
     \tag{2}
     \end{equation}
-  <dl/> 
-    
+  </dl>
+where $ \lvert \boldsymbol{\Omega}^K \rvert $ is the area of element <i>K</i>. 
+
+  
     
     
  </DIV>  
