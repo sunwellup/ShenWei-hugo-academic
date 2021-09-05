@@ -43,10 +43,10 @@ url_video: ""
   a^K\left ( \boldsymbol{u}^K, \boldsymbol{v}^K \right ) = \int_{\boldsymbol{\Omega}}^K \boldsymbol{\sigma\left ( \boldsymbol{u}^K\right )}:
   \boldsymbol{\epsilon\left ( \boldsymbol{v}\right )} d\boldsymbol{\Omega}^K = f^K \left( \boldsymbol{v}^K \right )=
   \int_{\partial\boldsymbol{\Omega}^K} \boldsymbol{v}^K \cdot \boldsymbol{t} d{\partial\boldsymbol{\Omega}^K}, 
-  \forall \boldsymbol{v}^K\inV\left(K\right)\timesV\left(K\right)    
+  \forall \boldsymbol{v}^K\in\V\left(K\right)\timesV\left(K\right)    
   \eqno(1)
   \end{equation}
-where in Eq.(1) <i>$\boldsymbol\sigma$</i> and <i>$\boldsymbol\epsilon$</i> are the stress and strain tensors, respectively, and <i>$boldsymbol{v}$</i> is the test function which belongs to the local virtual element space (or say, local shape function space) $ V(K)\timesV(K) $; 
+where in Eq.(1) <i>$\boldsymbol\sigma$</i> and <i>$\boldsymbol\epsilon$</i> are the stress and strain tensors, respectively, and $ boldsymbol{v} $ is the test vector-value function which belongs to the local virtual element space (or say, local shape function space) $ V(K)\timesV(K) $; $ boldsymbol{u} $ is the solution of vector-value function to be found, typically the displacement vector in <i>x</i>- and <i>y</i>-directions; $ \boldsymbol{\Omega}^K $ is the element domain and $ \boldsymbol{\Omega}^K $ 
 
   
 </DIV> 
