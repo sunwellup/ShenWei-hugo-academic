@@ -42,11 +42,10 @@ url_video: ""
   \begin{equation} \small
   a^K\left ( \boldsymbol{u}^K, \boldsymbol{v}^K \right ) = \int_{\boldsymbol{\Omega}}^K \boldsymbol{\sigma\left ( \boldsymbol{u}^K\right )}:
   \boldsymbol{\epsilon\left ( \boldsymbol{v}\right )} d\boldsymbol{\Omega}^K = f^K \left( \boldsymbol{v}^K \right )=
-  \int_{\partial\boldsymbol{\Omega}^K} \boldsymbol{v}^K \cdot \boldsymbol{t} d{\partial\boldsymbol{\Omega}^K}, 
-  \forall \boldsymbol{v}^K\in V\left(K\right) \times V\left(K\right)    
+  \int_{\partial\boldsymbol{\Omega}^K} \boldsymbol{v}^K \cdot \boldsymbol{t} d{\partial\boldsymbol{\Omega}^K},\ \forall \boldsymbol{v}^K\in V\left(K\right) \times V\left(K\right)    
   \tag{1}
   \end{equation}
-where in Eq.(1) <i>$\boldsymbol\sigma$</i> and <i>$\boldsymbol\epsilon$</i> are the stress and strain tensors, respectively, and $ boldsymbol{v} $ is the test vector-value function which belongs to the local Sobolev space $ V(K)\times V(K) $ defined within the element <i>K</i>; $ \boldsymbol{u} $ is the solution of vector-value function to be found, typically the displacement vector in <i>x</i>- and <i>y</i>-directions; $ \boldsymbol{\Omega}^K $ is the element domain and $ \boldsymbol{\partial\Omega}^K $ is the Neumann boundary of element <i>K</i>. <br/>
+where in Eq.(1) <i>$\boldsymbol\sigma$</i> and <i>$\boldsymbol\epsilon$</i> are the stress and strain tensors, respectively, and $ boldsymbol{v} $ is the test vector-value function which belongs to the local Sobolev space $ V(K)\times V(K) $ defined within the element <i>K</i>; $ \boldsymbol{u} $ is the solution of vector-value function to be found, typically the displacement vector in <i>x</i>- and <i>y</i>-directions; $ \boldsymbol{\Omega}^K $ is the element domain and $ \boldsymbol{\partial\Omega}^K $ is the corresponding Neumann boundary of element <i>K</i>. <br/>
 </DIV> 
 {{< figure src="VEM-1.png" title="DOFs of second-order VEM" numbered="true" >}} <br/>
 </font> 
@@ -57,8 +56,20 @@ where in Eq.(1) <i>$\boldsymbol\sigma$</i> and <i>$\boldsymbol\epsilon$</i> are 
   <ul>
   <li> $ \boldsymbol{v}_h $ is continuous on the boundary of element <i>K</i> </li>
   <li> $ \boldsymbol{v}_h $ is a vector with second-order polynomial components on each edge of element <i>K</i> </li>
-  <li> $ \Delta boldsymbol{v}_h $ is a vector with second-order polynomial components on each edge of element <i>K</i> </li> 
+  <li> $ \Delta \boldsymbol{v}_h $ is a vector with second-order polynomial components on each edge of element <i>K</i> </li> 
   <ul/>  
-where $ \Delta $ is the Laplace operator. 
-  
+where $ \Delta $ is the Laplace operator. The corresponding degrees of freedom (DOFs) of element <i>K</i> can be classified into the following three types <br/>
+  <dl>
+    <dt> (i) The values of $ \boldsymbol{v}_h $ at the 5 vertices of element <i>K</i> </dt>
+    <dt> (i) The values of $ \boldsymbol{v}_h $ at the 5 midpoints of 5 edges of element <i>K</i> </dt>
+    <dt> (i) The two moments of $ \boldsymbol{v}_h $ with respect to the constant vectors $ \boldsymbol{p}_1=[1,0]^T $ and $ \boldsymbol{p}_2=[0,1]^T $ in element <i>K</i>, that is </dt>
+    \begin{equation} \small
+    \frac{1}{\lvert \boldsymbol{\Omega}^K \rvert} \int_{\boldsymbol{\Omega}^K} \boldsymbol{v}_h \cdot \boldsymbol{p}_1 d\boldsymbol{\Omega}^K; \quad
+    \frac{1}{\lvert \boldsymbol{\Omega}^K \rvert} \int_{\boldsymbol{\Omega}^K} \boldsymbol{v}_h \cdot \boldsymbol{p}_2 d\boldsymbol{\Omega}^K    
+    \tag{2}
+    \end{equation}
+  <dl/> 
+    
+    
+    
  </DIV>  
