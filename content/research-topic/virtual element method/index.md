@@ -59,7 +59,7 @@ where in Eq.(1) <i>$\boldsymbol\sigma$</i> and <i>$\boldsymbol\epsilon$</i> are 
   <li> $ \Delta \boldsymbol{v}_h $ is a vector with second-order polynomial components on each edge of element <i>K</i> </li> 
   </ul>  
 where $ \Delta $ is the Laplace operator. The corresponding degrees of freedom (DOFs) of element <i>K</i> can be classified into the following three types <br/>
-  <ol style="list-style-type:lower-alpha">
+  <ol style="list-style-type:lower-roman">
     <li> The values of $ \boldsymbol{v}_h $ at the 5 vertices of element <i>K</i> </li>
     <li> The values of $ \boldsymbol{v}_h $ at the 5 midpoints of 5 edges of element <i>K</i> </li>
     <li> The two moments of $ \boldsymbol{v}_h $ with respect to the constant vectors $ \boldsymbol{p}_1=[1,0]^T $ and $ \boldsymbol{p}_2=[0,1]^T $ in element <i>K</i>, that is </li>
@@ -69,7 +69,7 @@ where $ \Delta $ is the Laplace operator. The corresponding degrees of freedom (
     \tag{2}
     \end{equation}
   </ol>
-where $ \lvert \boldsymbol{\Omega}^K \rvert $ is the area of element <i>K</i>. Based 
+where $ \lvert \boldsymbol{\Omega}^K \rvert $ is the area of element <i>K</i>. Based on the DOFs of types (i)-(iii), the total number of DOFs of element <i>K</i> for the second-order VEM is 5+5+2=12. Therefore, the function 
 
   
     
