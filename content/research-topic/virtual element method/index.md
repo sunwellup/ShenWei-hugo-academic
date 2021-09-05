@@ -52,13 +52,13 @@ where in Eq.(1) <i>$\boldsymbol\sigma$</i> and <i>$\boldsymbol\epsilon$</i> are 
   
 <font size="4" font face = "Times New Roman">
 <DIV align="justify">  
- Generally the solution $ boldsymbol{u} $ is approximated by a function in the subspace of $ V_h(K)\times V_h(K) \subseteq V(K)\times V(K) $, which is called local virtual element space (or say, local shape function space). Let the element in $ V_h(K)\times V_h(K) $ denote as $ \boldsymbol{v}_h $, the the vector-value function $ boldsymbol{v}_h $ in second-order VEM has the following properties:<br/>
+ Generally the solution $ boldsymbol{u} $ is approximated by a function in the subspace of $ V_h(K)\times V_h(K) \subseteq V(K)\times V(K) $ called local virtual element space (or say, local shape function space), and the number of basis functions (shape functions) that span  $ V_h(K)\times V_h(K) $ is equal to the number of degrees of freedom (DOFs) of element <i>K</i> defined in the following. Let the element in $ V_h(K)\times V_h(K) $ denote as $ \boldsymbol{v}_h $, the the vector-value function $ boldsymbol{v}_h $ in second-order VEM has the following properties:<br/>
   <ul>
   <li> $ \boldsymbol{v}_h $ is continuous on the boundary of element <i>K</i> </li>
   <li> $ \boldsymbol{v}_h $ is a vector with second-order polynomial components on each edge of element <i>K</i> </li>
   <li> $ \Delta \boldsymbol{v}_h $ is a vector with second-order polynomial components on each edge of element <i>K</i> </li> 
   </ul>  
-where $ \Delta $ is the Laplace operator. The corresponding degrees of freedom (DOFs) of element <i>K</i> can be classified into the following three types <br/>
+where $ \Delta $ is the Laplace operator. The corresponding DOFs of element <i>K</i> can be classified into the following three types <br/>
   <ol style="list-style-type:lower-roman">
     <li> The values of $ \boldsymbol{v}_h $ at the 5 vertices of element <i>K</i> </li>
     <li> The values of $ \boldsymbol{v}_h $ at the 5 midpoints of 5 edges of element <i>K</i> </li>
@@ -69,7 +69,11 @@ where $ \Delta $ is the Laplace operator. The corresponding degrees of freedom (
     \tag{2}
     \end{equation}
   </ol>
-where $ \lvert \boldsymbol{\Omega}^K \rvert $ is the area of element <i>K</i>. Based on the DOFs of types (i)-(iii), the total number of DOFs of element <i>K</i> for the second-order VEM is 5+5+2=12. Therefore, the function 
+where $ \lvert \boldsymbol{\Omega}^K \rvert $ is the area of element <i>K</i>. Based on the DOFs of types (i)-(iii), the total number of DOFs of element <i>K</i> for the second-order VEM is 5+5+2=12. Therefore, the function $ \boldsymbol{v}_h $ is obtained by a linear combination of the basis functions in $ V_h(K)\times V_h(K) $ as follow
+  \begin{equation} \small
+  \boldsymbol{v}_h = \sum_{i=1}^{12} dof_i\left( \boldsymbol{v}_h \right ) \boldsymbol{\varphi}_i
+  \tag{3}
+  \end{equation}
 
   
     
