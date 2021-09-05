@@ -59,17 +59,17 @@ where in Eq.(1) <i>$\boldsymbol\sigma$</i> and <i>$\boldsymbol\epsilon$</i> are 
   <li> $ \Delta \boldsymbol{v}_h $ is a vector with second-order polynomial components on each edge of element <i>K</i> </li> 
   </ul>  
 where $ \Delta $ is the Laplace operator. The corresponding degrees of freedom (DOFs) of element <i>K</i> can be classified into the following three types <br/>
-  <dl>
-    <dt> (i) The values of $ \boldsymbol{v}_h $ at the 5 vertices of element <i>K</i> </dt>
-    <dt> (i) The values of $ \boldsymbol{v}_h $ at the 5 midpoints of 5 edges of element <i>K</i> </dt>
-    <dt> (i) The two moments of $ \boldsymbol{v}_h $ with respect to the constant vectors $ \boldsymbol{p}_1=[1,0]^T $ and $ \boldsymbol{p}_2=[0,1]^T $ in element <i>K</i>, that is </dt>
+  <ol style="list-style-type:lower-alpha">
+    <li> The values of $ \boldsymbol{v}_h $ at the 5 vertices of element <i>K</i> </li>
+    <li> The values of $ \boldsymbol{v}_h $ at the 5 midpoints of 5 edges of element <i>K</i> </li>
+    <li> The two moments of $ \boldsymbol{v}_h $ with respect to the constant vectors $ \boldsymbol{p}_1=[1,0]^T $ and $ \boldsymbol{p}_2=[0,1]^T $ in element <i>K</i>, that is </li>
     \begin{equation} \small
     \frac{1}{\lvert \boldsymbol{\Omega}^K \rvert} \int_{\boldsymbol{\Omega}^K} \boldsymbol{v}_h \cdot \boldsymbol{p}_1 d\boldsymbol{\Omega}^K; \quad
     \frac{1}{\lvert \boldsymbol{\Omega}^K \rvert} \int_{\boldsymbol{\Omega}^K} \boldsymbol{v}_h \cdot \boldsymbol{p}_2 d\boldsymbol{\Omega}^K    
     \tag{2}
     \end{equation}
-  </dl>
-where $ \lvert \boldsymbol{\Omega}^K \rvert $ is the area of element <i>K</i>. 
+  </ol>
+where $ \lvert \boldsymbol{\Omega}^K \rvert $ is the area of element <i>K</i>. Based 
 
   
     
