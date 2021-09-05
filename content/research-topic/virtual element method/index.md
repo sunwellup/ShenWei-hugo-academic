@@ -46,7 +46,7 @@ url_video: ""
   \forall \boldsymbol{v}^K\in V\left(K\right) \times V\left(K\right)    
   \tag{1}
   \end{equation}
-where in Eq.(1) <i>$\boldsymbol\sigma$</i> and <i>$\boldsymbol\epsilon$</i> are the stress and strain tensors, respectively, and $ boldsymbol{v} $ is the test vector-value function which belongs to the local Sobolev space $ V(K)\times V(K) $ defined within the element <i>K</i>; $ boldsymbol{u} $ is the solution of vector-value function to be found, typically the displacement vector in <i>x</i>- and <i>y</i>-directions; $ \boldsymbol{\Omega}^K $ is the element domain and $ \boldsymbol{\partial\Omega}^K $ is the Neumann boundary of element <i>K</i>. <br/>
+where in Eq.(1) <i>$\boldsymbol\sigma$</i> and <i>$\boldsymbol\epsilon$</i> are the stress and strain tensors, respectively, and $ boldsymbol{v} $ is the test vector-value function which belongs to the local Sobolev space $ V(K)\times V(K) $ defined within the element <i>K</i>; $ \boldsymbol{u} $ is the solution of vector-value function to be found, typically the displacement vector in <i>x</i>- and <i>y</i>-directions; $ \boldsymbol{\Omega}^K $ is the element domain and $ \boldsymbol{\partial\Omega}^K $ is the Neumann boundary of element <i>K</i>. <br/>
 </DIV> 
 {{< figure src="VEM-1.png" title="DOFs of second-order VEM" numbered="true" >}} <br/>
 </font> 
@@ -55,8 +55,8 @@ where in Eq.(1) <i>$\boldsymbol\sigma$</i> and <i>$\boldsymbol\epsilon$</i> are 
 <DIV align="justify">  
  Generally the solution $ boldsymbol{u} $ is approximated by a function in the subspace of $ V_h(K)\times V_h(K) \subseteq V(K)\times V(K) $, which is called local virtual element space (or say, local shape function space). Let the element in $ V_h(K)\times V_h(K) $ denote as $ boldsymbol{v}_h $, the the vector-value function $ boldsymbol{v}_h $ in second-order VEM has the following properties:<br/>
   <ul>
-  <li> $ boldsymbol{v}_h $ is continuous on the boundary of element <i>K</i> </li>
-  <li> $ boldsymbol{v}_h $ is a vector with second-order polynomial components on each edge of element <i>K</i> </li>
+  <li> $ \boldsymbol{v}_h $ is continuous on the boundary of element <i>K</i> </li>
+  <li> $ \boldsymbol{v}_h $ is a vector with second-order polynomial components on each edge of element <i>K</i> </li>
   <li> $ \Delta boldsymbol{v}_h $ is a vector with second-order polynomial components on each edge of element <i>K</i> </li> 
   <ul/>  
 where $ \Delta $ is the Laplace operator. 
