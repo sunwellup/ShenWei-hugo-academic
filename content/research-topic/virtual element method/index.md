@@ -42,10 +42,11 @@ url_video: ""
   $$ \small
   a^K\left ( \boldsymbol{u}^K, \boldsymbol{v}^K \right ) = \int_{\boldsymbol{\Omega}}^K \boldsymbol{\sigma\left ( \boldsymbol{u}^K\right )}:
   \boldsymbol{\epsilon\left ( \boldsymbol{v}\right )} d\boldsymbol{\Omega}^K = f^K \left( \boldsymbol{v}^K \right )=
-  \int_{\partial\boldsymbol{\Omega}^K} \boldsymbol{v}^K \cdot \boldsymbol{t} d{\partial\boldsymbol{\Omega}^K} 
+  \int_{\partial\boldsymbol{\Omega}^K} \boldsymbol{v}^K \cdot \boldsymbol{t} d{\partial\boldsymbol{\Omega}^K},\ 
+  \forall \boldsymbol{v}^K\inV\left(K\right)\timesV\left(K\right)    
   \eqno(1)
   $$
-where in Eq.(1)    
+where in Eq.(1) <i>$\boldsymbol\sigma$</i> and <i>$\boldsymbol\epsilon$</i> are the stress and strain tensors, respectively, and 
 
   
 </DIV> 
