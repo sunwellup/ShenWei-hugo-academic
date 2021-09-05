@@ -71,10 +71,10 @@ where $ \Delta $ is the Laplace operator. The corresponding DOFs of element <i>K
   </ol>
 where $ \lvert \boldsymbol{\Omega}^K \rvert $ is the area of element <i>K</i>. Based on the DOFs of types (i)-(iii), the total number of DOFs of element <i>K</i> for the second-order VEM is 5+5+2=12. Therefore, the function $ \boldsymbol{v}_h $ is obtained by a linear combination of the basis functions in $ V_h(K)\times V_h(K) $ as follow
   \begin{equation} \small
-  \boldsymbol{v}_h = \sum_{i=1}^{12} dof_i\left( \boldsymbol{v}_h \right ) \boldsymbol{\varphi}_i
+  \boldsymbol{v}_h = \sum_{i=1}^{12} \rm{dof}_i\left( \boldsymbol{v}_h \right ) \boldsymbol{\varphi}_i
   \tag{3}
   \end{equation}
-
+where $ dof_i( \boldsymbol{v}_h) $ represents the <i>i</i>th DOF of $ \boldsymbol{v}_h $ as given in types (i)-(iii) above, and $ \boldsymbol{\varphi}_i $ is the <i>i</i>th vector-valued basis function of the local virtual element space $  $ of element <i>K</i> with the following two properties
   
     
     
