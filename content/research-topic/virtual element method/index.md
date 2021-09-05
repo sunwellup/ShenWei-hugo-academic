@@ -32,6 +32,7 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 # slides: example
 ---
+<font size="1">
 <DIV align="justify">
   VEM is a recently proposed numerical discretization technique in Galerkin framework which is inspired by mimic finite difference (MFD) method, and since the date of birth it has been extensively developed and applied to a wide range of engineering problems. The core of the method is to construct a projector which projects the function in local virtual element space (or say, local shape function space) to a polynomial space with prescribed order. In this way VEM avoids the explicit construction of shape function and its integral over the element domain; and thus VEM is able to handle arbitrary polygonal mesh.<br/>
   
@@ -39,9 +40,9 @@ url_video: ""
 <DIV align="justify"> 
   In order to give a simple and general illustration of how VEM works, here I take a linear elasticity boundary value problem in 2-dimensional domain $\boldsymbol\Omega$ as example. The domain is partitioned into arbitrary polygonal meshes <i>T<sub>h</sub></i>, and suppose one of the elements is pentagon as shown in Fig. 1.The weak form of the boundary value problem of this pentagon element <i>K</i> is given as
   $$ 
-  a^K\left ( \boldsymbol{u}^K, \boldsymbol{v}^K \right ) = \int_{\boldsymbol{\Omega}^K} \boldsymbol{\sigma\left ( \boldsymbol{u}^K\right )}:
-  \boldsymbol{\epsilon\left ( \boldsymbol{v}\right )} d\boldsymbol{\Omega}^K = f^K \left( \boldsymbol{\epsilon}^K \right )=
-  \int_{\boldsymbol{\partial\Omega}^K} \boldsymbol{v}^K \cdot \boldsymbol{t} d{\boldsymbol{\partial\Omega}^K}
+  a^K\left ( \boldsymbol{u}^K, \boldsymbol{v}^K \right ) = \int_{\boldsymbol{\Omega}}^K \boldsymbol{\sigma\left ( \boldsymbol{u}^K\right )}:
+  \boldsymbol{\epsilon\left ( \boldsymbol{v}\right )} d\boldsymbol{\Omega}^K = f^K \left( \boldsymbol{\v}^K \right )=
+  \int_{\partial\boldsymbol{\Omega}^K} \boldsymbol{v}^K \cdot \boldsymbol{t} d{\partial\boldsymbol{\Omega}^K}
   $$
   
 
@@ -50,4 +51,4 @@ url_video: ""
   
   
 {{< figure src="VEM-1.png" title="DOFs of second-order VEM" numbered="true" >}}
-
+</font> 
