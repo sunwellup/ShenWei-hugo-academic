@@ -39,8 +39,9 @@ url_video: ""
 <DIV align="justify"> 
   In order to give a simple and general illustration of how VEM works, here I take a linear elasticity boundary value problem in 2-dimensional domain $\boldsymbol\Omega$ as example. The domain is partitioned into arbitrary polygonal meshes <i>T<sub>h</sub></i>, and suppose one of the elements is pentagon as shown in Fig. 1.The weak form of the boundary value problem of this pentagon element <i>K</i> is given as
   $$ 
-  a^K\left ( \boldsymbol{u}^K, \boldsymbol{v}^K \right ) = \int_{\boldsymbol{\Omega}^K} \boldsymbol{\sigma\left ( \boldsymbol{u}\right )}:
-  \boldsymbol{\sigma\left ( \boldsymbol{u}\right )}
+  a^K\left ( \boldsymbol{u}^K, \boldsymbol{v}^K \right ) = \int_{\boldsymbol{\Omega}^K} \boldsymbol{\sigma\left ( \boldsymbol{u}^K\right )}:
+  \boldsymbol{\epsilon\left ( \boldsymbol{v}\right )} d\boldsymbol{\Omega}^K = f^K \left( \boldsymbol{\epsilon}^K \right )=
+  \int_{\boldsymbol{\partial\Omega}^K} \boldsymbol{v}^K \cdot \boldsymbol{t} d{\boldsymbol{\partial\Omega}^K}
   $$
   
 
