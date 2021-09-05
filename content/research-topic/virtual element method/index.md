@@ -38,15 +38,15 @@ url_video: ""
   <br/>
 </DIV>   
 <DIV align="justify"> 
-  In order to give a simple and general illustration of how VEM works, here I take a linear elasticity boundary value problem in 2-dimensional domain $\boldsymbol\Omega$ as example. The domain is partitioned into arbitrary polygonal meshes <i>$T_h$</i>, and suppose one of the elements is pentagon as shown in Fig. 1.The weak form of the boundary value problem of this pentagon element <i>K</i> is given as
-  $$ \small
+  In order to give a simple and general illustration of how VEM works, here I take a linear elasticity boundary value problem in 2-dimensional domain $ \boldsymbol\Omega $ as example. The domain is partitioned into arbitrary polygonal meshes <i>$T_h$</i>, and suppose one of the elements is pentagon as shown in Fig. 1.The weak form of the boundary value problem of this pentagon element <i>K</i> is given as
+  \begin{equation} \small
   a^K\left ( \boldsymbol{u}^K, \boldsymbol{v}^K \right ) = \int_{\boldsymbol{\Omega}}^K \boldsymbol{\sigma\left ( \boldsymbol{u}^K\right )}:
   \boldsymbol{\epsilon\left ( \boldsymbol{v}\right )} d\boldsymbol{\Omega}^K = f^K \left( \boldsymbol{v}^K \right )=
   \int_{\partial\boldsymbol{\Omega}^K} \boldsymbol{v}^K \cdot \boldsymbol{t} d{\partial\boldsymbol{\Omega}^K},\ 
   \forall \boldsymbol{v}^K\inV\left(K\right)\timesV\left(K\right)    
   \eqno(1)
-  $$
-where in Eq.(1) <i>$\boldsymbol\sigma$</i> and <i>$\boldsymbol\epsilon$</i> are the stress and strain tensors, respectively, and 
+  \end{equation}
+where in Eq.(1) <i>$\boldsymbol\sigma$</i> and <i>$\boldsymbol\epsilon$</i> are the stress and strain tensors, respectively, and <i>$boldsymbol{v}$</i> is the test function which belongs to the local virtual element space (or say, local shape function space) $ V\left(K\right)\timesV\left(K\right) $; 
 
   
 </DIV> 
