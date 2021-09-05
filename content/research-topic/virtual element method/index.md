@@ -37,8 +37,8 @@ url_video: ""
   
 </DIV>   
 <DIV align="justify"> 
-  In order to give a simple and general illustration of how VEM works, here I take a linear elasticity boundary value problem in 2-dimensional domain <b>$\Omega$</b> as example. The domain is partitioned into arbitrary polygonal meshes <i>T<sub>h<sub></i>, and suppose one of the element is pentagon as shown in Fig. 1.The weak form of the boundary value problem of this pentagon element is given as 
-  
+  In order to give a simple and general illustration of how VEM works, here I take a linear elasticity boundary value problem in 2-dimensional domain <b>$\Omega$</b> as example. The domain is partitioned into arbitrary polygonal meshes <i>T<sub>h</sub></i>, and suppose one of the element is pentagon as shown in Fig. 1.The weak form of the boundary value problem of this pentagon element is given as 
+  a<sup><i>k</i></sup>()
   
 </DIV> 
   
