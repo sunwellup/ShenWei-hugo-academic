@@ -100,14 +100,14 @@ where the subscripts <i>ij</i> indicate the location of entry in <i><b>k</b>^K</
   \tag{5}
   \end{equation}
 where $ \boldsymbol{p}_{\alpha} $ are the polynomial basis functions that span the second-order polynomial space $ P_2 \times P_2 $. Then Eq.(4) is reformulated by using the projector $ \Pi^\nabla $ as 
-  \begin{equation} \small
+  $$ \begin{equation} \small
   \left (\boldsymbol{k}^K \right)_{ij} = a^K \left ( \Pi^\nabla\boldsymbol{\varphi}_i + \left ( \boldsymbol{\varphi}_i - \Pi^\nabla\boldsymbol{\varphi}_i   \right ), 
   \Pi^\nabla\boldsymbol{\varphi}_j + \left ( \boldsymbol{\varphi}_j - \Pi^\nabla\boldsymbol{\varphi}_j   \right ) \right )= \\\\\\
   \underbrace{a^K \left ( \Pi^\nabla\boldsymbol{\varphi}_i,\Pi^\nabla\boldsymbol{\varphi}_j \right )}_{\rm consistency} + 
   \underbrace{a^K \left ( \boldsymbol{\varphi}_i - \Pi^\nabla\boldsymbol{\varphi}_i, \boldsymbol{\varphi}_j - \Pi^\nabla\boldsymbol{\varphi}_j \right )}_{\rm stability}
   = \left (\boldsymbol{k}_c^K \right)_{ij} + \left (\boldsymbol{k}_s^K \right)_{ij}  
   \tag{6}
-  \end{equation}
+  \end{equation} $$
 where $ \Pi^\nabla \boldsymbol{\varphi}_i = \sum_{\alpha=1}^{12} S_{i,\alpha} \boldsymbol{p}_\alpha,\ \boldsymbol{p}_\alpha \in P^2\times P^2 $ is the image of basis function 
 $ \boldsymbol{\varphi}_i $ projected on the second-order polynomial space which is a linear combination of polynomial basis functions 
   $ \boldsymbol{p}_{\alpha} $ with coefficients $ S_{i,/alpha} $, 
@@ -117,7 +117,7 @@ $ \boldsymbol{\varphi}_i $ projected on the second-order polynomial space which 
   <br/>
    Based on the defination of projector $ \Pi^\nabla $ and linearity of the stain tensor, the component-wise consistency term $ \left ( \boldsymbol{k}_c^K \right ) $ can be obtained explicitly as
   \begin{equation} \small
-  
+  \left ( \boldsymbol{k}_c^K \right ) = 
   
   \tag{7}
   \end{equation}
