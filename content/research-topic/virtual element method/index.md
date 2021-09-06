@@ -145,17 +145,7 @@ $ \boldsymbol{\varphi}_i $ projected on the second-order polynomial space which 
   \end{equation}
   where $ \overline{\boldsymbol{\Pi}} $ is the matrix representation of projection $ \overline{\Pi}^\nabla $. Based on Eq.(9), the stability term $ \left ( \boldsymbol{k}_s^K \right )_{ij} $ is calculated as
   \begin{equation} \small
-  \begin{split}
-  \left ( \boldsymbol{k}_s^K \right )_{ij} &= \int_{\Omega^K} \boldsymbol{\sigma} \left ( \Pi^\nabla \boldsymbol{\varphi}_i  \right ):
-  \boldsymbol{\epsilon} \left ( \Pi^\nabla \boldsymbol{\varphi}_j  \right ) d\Omega^K =
-  \int_{\Omega^K} \boldsymbol{\sigma} \left ( \sum_{\alpha=1}^{12} S_{i,\alpha} \boldsymbol{p}_{\alpha}  \right ):
-  \boldsymbol{\epsilon} \left ( \sum_{\beta=1}^{12} S_{j,\beta} \boldsymbol{p}_{\beta}  \right ) d\Omega^K  \\\\
-  &= \sum_{\alpha=1}^{12} \sum_{\beta=1}^{12} S_{i,\alpha}S_{j,\beta} \int_{\Omega^K} \boldsymbol{\sigma} \left ( \boldsymbol{p}_{\alpha} \right ):
-  \boldsymbol{\epsilon} \left ( \boldsymbol{p}_{\beta} \right ) d\Omega^K = 
-  = \sum_{\alpha=1}^{12} \sum_{\beta=1}^{12} S_{i,\alpha}S_{j,\beta}a^K \left ( \boldsymbol{p}_{\alpha}, \boldsymbol{p}_{\beta} \right )  \\\\
-  &= \sum_{\alpha=1}^{12} \sum_{\beta=1}^{12} \boldsymbol{\Pi}_{i\alpha} \boldsymbol{\Pi}_{\beta j} \boldsymbol{G}_{\alpha \beta} 
-  = \left ( \boldsymbol{\Pi}^T \boldsymbol{G} \boldsymbol{\Pi}  \right )_{ij}, \quad {\rm for}\ i,j=1,2,...,12    
-  \end{split}
+  \left ( \boldsymbol{k}_s^K \right )_{ij} = 
   \tag{10}
   \end{equation}
   
