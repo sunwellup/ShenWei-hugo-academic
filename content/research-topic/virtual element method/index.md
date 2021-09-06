@@ -45,7 +45,7 @@ url_video: ""
   \int_{\partial\boldsymbol{\Omega}^K} \boldsymbol{v}^K \cdot \boldsymbol{t} d\partial\boldsymbol{\Omega}^K,\ \forall \boldsymbol{v}^K\in V\left(K\right) \times V\left(K\right)    
   \tag{1}
   \end{equation}
-where in Eq.(1) $ a^K $ and $ f^K $ are the bilinear and linear form defined in the element <i>K</i>; <i>$\boldsymbol\sigma$</i> and <i>$\boldsymbol\epsilon$</i> are the stress and strain tensors, respectively, and $ \boldsymbol{v} $ is the test vector-value function which belongs to the local Sobolev space $ V(K)\times V(K) $ defined within the element <i>K</i>; $ \boldsymbol{u} $ is the solution of vector-value function to be found, typically the displacement vector in <i>x</i>- and <i>y</i>-directions; $ \boldsymbol{\Omega}^K $ is the element domain and $ \boldsymbol{\partial\Omega}^K $ is the corresponding Neumann boundary of element <i>K</i>. <br/>
+where in Eq.(1) $ a^K $ and $ f^K $ are the bilinear and linear form defined in the element <i>K</i>; $ \boldsymbol{\sigma} $ and $ \boldsymbol{\epsilon} $ are the stress and strain tensors, respectively, and $ \boldsymbol{v} $ is the test vector-value function which belongs to the local Sobolev space $ V(K)\times V(K) $ defined within the element <i>K</i>; $ \boldsymbol{u} $ is the solution of vector-value function to be found, typically the displacement vector in <i>x</i>- and <i>y</i>-directions; $ \boldsymbol{\Omega}^K $ is the element domain and $ \boldsymbol{\partial\Omega}^K $ is the corresponding Neumann boundary of element <i>K</i>. <br/>
 </DIV> 
 {{< figure src="VEM-1.png" title="DOFs of second-order VEM" numbered="true" >}} <br/>
 </font> 
@@ -84,14 +84,14 @@ where $ {\rm dof}_i( \boldsymbol{v}_h) $ represents the <i>i</i>th DOF of $ \bol
  </DIV>  
 <font size="4" font face = "Times New Roman">
 <DIV align="justify">
-  Similar to classical Galerkin finite element method (FEM), the entry of local stiffness matrix <i><b>k</b><sup>K</sup></i> of element <i>K</i> is calculated as 
+  Similar to classical Galerkin finite element method (FEM), the entry of local stiffness matrix $ \boldsymbol{k}^K $ of element <i>K</i> is calculated as 
   \begin{equation} \small
   \left (\boldsymbol{k}^K \right)_{ij} = a^K \left ( \boldsymbol{\varphi}_i, \boldsymbol{\varphi}_j \right )=
   \int_{\boldsymbol{\Omega}^K} \boldsymbol{\sigma}\left ( \boldsymbol{\varphi}_i \right ) : \boldsymbol{\epsilon}\left ( \boldsymbol{\varphi}_j \right ) 
   d\boldsymbol{\Omega}^K, \quad {\rm for}\ i,j=1,2,...,12
   \tag{4}
   \end{equation}
-where the subscripts <i>ij</i> indicate the location of entry in <i><b>k</b><sup>K</sup></i>. <b>Now comes the most important part of VEM: define a projector 
+where the subscripts <i>ij</i> indicate the location of entry in $ \boldsymbol{k}^K $. <b>Now comes the most important part of VEM: define a projector 
   $ {\rm \Pi}^\nabla: V_h(K)\times V_h(K) \rightarrow  P^2 \times P^2 $ which maps the function $ \boldsymbol{v}_h $ in the space $ V_h(K)\times V_h(K) $
   onto the second-order polynomial space $ P^2 \times P^2 $ satisfying the following orthogonality condition:</b>
   \begin{equation} \small
@@ -131,7 +131,7 @@ $ \boldsymbol{\varphi}_i $ projected on the second-order polynomial space which 
  where $ \boldsymbol{\Pi} $ is the matrix representation of projector $ \Pi^\nabla $, and matrix $ \boldsymbol{G} $ is defined with entry $ \boldsymbol{G}_{\alpha \beta} = 
   a^K \left ( \boldsymbol{p}_{\alpha},\ \boldsymbol{p}_{\beta} \right )$. <br/>
   <br/>
-  As for the stability term $ \left ( \boldsymbol{k}_s_K \right )_{ij} $ of element <i>K</i>, fistly define a 22-by-12 matrix <i><b>D</b></i> with entry as 
+  As for the stability term $ \left ( \boldsymbol{k}_s^K \right )_{ij} $ of element <i>K</i>, fistly define a 22-by-12 matrix <i><b>D</b></i> with entry as 
   \begin{equation} \small
   \boldsymbol{D}_{i\alpha} = {\rm dof}_i \left ( \boldsymbol{p}_{\alpha} \right ) \quad {\rm for} i=1,2,...,22\ {\rm and}\ \alpha=1,2,...,12
   \tag{8}
@@ -143,7 +143,7 @@ $ \boldsymbol{\varphi}_i $ projected on the second-order polynomial space which 
   = \sum_{\beta=1}^{12} \boldsymbol{D}_{i \beta} \boldsymbol{\Pi}_{\beta j} = \left( \boldsymbol{D} \boldsymbol{\Pi} \right )_{ij} \quad {\rm for} i,j = 1,2,...,22 
   \tag{9}
   \end{equation}
-  where $ \overline{\boldsymbol{\Pi}} $ is the matrix representation of projection $ \overline{\Pi}^\nabla $. Based on Eq.(9), the stability term $ \left ( \boldsymbol{k}_s_K \right )_{ij} $ is calculated as
+  where $ \overline{\boldsymbol{\Pi}} $ is the matrix representation of projection $ \overline{\Pi}^\nabla $. Based on Eq.(9), the stability term $ \left ( \boldsymbol{k}_s^K \right )_{ij} $ is calculated as
   \begin{equation} \small
   \left ( \boldsymbol{k}_s^K \right )_{ij} = \gamma \tau* \left( \boldsymbol{I} - \overline{\boldsymbol{Pi}} \right)_i^T  \left( \boldsymbol{I} - \overline{\boldsymbol{Pi} \right)_j \quad {\rm for} i,j=1,2,...,22
   \tag{10}
