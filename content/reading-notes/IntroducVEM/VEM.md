@@ -47,13 +47,12 @@ url_video: ""
 where in Eq.(1) $ a^K $ and $ f^K $ are the bilinear and linear form defined in the element <i>K</i>; $ \boldsymbol{\sigma} $ and $ \boldsymbol{\epsilon} $ are the stress and strain tensors, respectively, and $ \boldsymbol{v} $ is the test vector-value function which belongs to the local Sobolev space $ V(K)\times V(K) $ defined within the element <i>K</i>; $ \boldsymbol{u} $ is the solution of vector-value function to be found, typically the displacement vector in <i>x</i>- and <i>y</i>-directions; $ \boldsymbol{\Omega}^K $ is the element domain and $ \boldsymbol{\partial\Omega}^K $ is the corresponding Neumann boundary of element <i>K</i>. <br/>
 </DIV> 
   
-{{<figure src="/img/VEM-1.png" title="DOFs of second-order VEM" numbered="true" >}} <br/>
-  
+{{<figure src="/img/VEM-1.png" title="DOFs of second-order VEM" numbered="true" >}} 
 </font> 
   
 <font size="4" font face = "Times New Roman">
 <DIV align="justify">  
- Generally the solution $ boldsymbol{u} $ is approximated by a function in the subspace of $ V_h(K)\times V_h(K) \subseteq V(K)\times V(K) $ called local virtual element space (or say, local shape function space), and the number of basis functions (shape functions) that span  $ V_h(K)\times V_h(K) $ is equal to the number of degrees of freedom (DOFs) of element <i>K</i> defined in the following. Let the element in $ V_h(K)\times V_h(K) $ denote as $ \boldsymbol{v}_h $, the the vector-value function $ boldsymbol{v}_h $ in second-order VEM has the following properties:<br/>
+ Generally the solution $ \boldsymbol{u} $ is approximated by a function in the subspace of $ V_h(K)\times V_h(K) \subseteq V(K)\times V(K) $ called local virtual element space (or say, local shape function space), and the number of basis functions (shape functions) that span  $ V_h(K)\times V_h(K) $ is equal to the number of degrees of freedom (DOFs) of element <i>K</i> defined in the following. Let the element in $ V_h(K)\times V_h(K) $ denote as $ \boldsymbol{v}_h $, the the vector-value function $ boldsymbol{v}_h $ in second-order VEM has the following properties:<br/>
   <ul>
   <li> $ \boldsymbol{v}_h $ is continuous on the boundary of element <i>K</i> </li>
   <li> $ \boldsymbol{v}_h $ is a vector with second-order polynomial components on each edge of element <i>K</i> </li>
