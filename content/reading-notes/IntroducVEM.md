@@ -1,5 +1,5 @@
 ---
-title: Investigation of virtual element method (VEM)
+title: Introduction of virtual element method (VEM)
 summary: Virtual element method (VEM) is considered as as general finite element method because it can be used for any arbitrary polygon meshes. 
 tags:
 - virtual element method
