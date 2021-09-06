@@ -145,13 +145,13 @@ $ \boldsymbol{\varphi}_i $ projected on the second-order polynomial space which 
   \end{equation}
   where $ \overline{\boldsymbol{\Pi}} $ is the matrix representation of projection $ \overline{\Pi}^\nabla $. Based on Eq.(9), the stability term $ \left ( \boldsymbol{k}_s^K \right )_{ij} $ is calculated as
   \begin{equation} \small
-  \overline{ \boldsymbol{\Pi} }_{ij} = {\rm dof}_i \left ( \Pi\nabla \boldsymbol{\varphi}_j  \right )
-  = {\rm dof}_i \left ( \sum_{\beta=1}^{12} S_{j,\beta} \boldsymbol{p}_{\beta} \right )
-  = \sum_{\beta=1}^{12} \boldsymbol{D}_{i \beta} \boldsymbol{\Pi}_{\beta j} = \left( \boldsymbol{D} \boldsymbol{\Pi} \right )_{ij} \quad {\rm for}\ i,j = 1,2,...,22 
+  \left ( \boldsymbol{k}_s^K \right )_{ij} = \gamma \tau* \left( \boldsymbol{I} - \overline{\boldsymbol{Pi}} \right)_i^T  \left( \boldsymbol{I} - \overline{\boldsymbol{Pi} \right)_j \quad {\rm for}\ i,j=1,2,...,22
+  
   \tag{9}
   \end{equation}
-  \left ( \boldsymbol{k}_s^K \right )_{ij} = 
-  \gamma \tau* \left( \boldsymbol{I} - \overline{\boldsymbol{Pi}} \right)_i^T  \left( \boldsymbol{I} - \overline{\boldsymbol{Pi} \right)_j \quad {\rm for}\ i,j=1,2,...,22
+  
+  
+  
   where $ \boldsymbol{I} $ is the 22-by-22 identity matrix;$ \gamma $ is the user-defined parameter which can be chosen as 1 for elastic problem, and $ \tau* $ can be calculated by various formulas, such as $ \tau*={\rm trace} (\boldsymbol{k}_c^K ) $. Hence, through Eqs.(1) to (10), one can calculate all the entries in local stiffness matrix $ \boldsymbol{k}^K $ of element <i>K</i>, and the global stiffness matrix can be obtained by assembling all the local stiffness matrices in the same manner as the classical Galerkin FEM.
   
 </DIV> 
