@@ -40,12 +40,12 @@ url_video: ""
 <DIV align="justify"> 
   In order to give a simple and general illustration of how VEM works, here I take a linear elasticity boundary value problem in 2-dimensional domain $ \boldsymbol\Omega $ as example. The domain is partitioned into arbitrary polygonal meshes <i>$T_h$</i>, and suppose one of the elements is pentagon as shown in Fig. 1.The weak form of the boundary value problem of this pentagon element <i>K</i> is given as
   \begin{equation} \small
-  a^K\left ( \boldsymbol{u}^K, \boldsymbol{v}^K \right ) = \int_{\boldsymbol{\Omega}}^K \boldsymbol{\sigma\left ( \boldsymbol{u}^K\right )}:
+  a^K\left ( \boldsymbol{u}^K, \boldsymbol{v}^K \right ) = \int_{\boldsymbol{\Omega}^K} \boldsymbol{\sigma\left ( \boldsymbol{u}^K\right )}:
   \boldsymbol{\epsilon\left ( \boldsymbol{v}\right )} d\boldsymbol{\Omega}^K = f^K \left( \boldsymbol{v}^K \right )=
   \int_{\partial\boldsymbol{\Omega}^K} \boldsymbol{v}^K \cdot \boldsymbol{t} d\partial\boldsymbol{\Omega}^K,\ \forall \boldsymbol{v}^K\in V\left(K\right) \times V\left(K\right)    
   \tag{1}
   \end{equation}
-where in Eq.(1) <i>$\boldsymbol\sigma$</i> and <i>$\boldsymbol\epsilon$</i> are the stress and strain tensors, respectively, and $ boldsymbol{v} $ is the test vector-value function which belongs to the local Sobolev space $ V(K)\times V(K) $ defined within the element <i>K</i>; $ \boldsymbol{u} $ is the solution of vector-value function to be found, typically the displacement vector in <i>x</i>- and <i>y</i>-directions; $ \boldsymbol{\Omega}^K $ is the element domain and $ \boldsymbol{\partial\Omega}^K $ is the corresponding Neumann boundary of element <i>K</i>. <br/>
+where in Eq.(1) $ a^K $ and $ f^K $ are the bilinear and linear form defined in the element <i>K</i>; <i>$\boldsymbol\sigma$</i> and <i>$\boldsymbol\epsilon$</i> are the stress and strain tensors, respectively, and $ \boldsymbol{v} $ is the test vector-value function which belongs to the local Sobolev space $ V(K)\times V(K) $ defined within the element <i>K</i>; $ \boldsymbol{u} $ is the solution of vector-value function to be found, typically the displacement vector in <i>x</i>- and <i>y</i>-directions; $ \boldsymbol{\Omega}^K $ is the element domain and $ \boldsymbol{\partial\Omega}^K $ is the corresponding Neumann boundary of element <i>K</i>. <br/>
 </DIV> 
 {{< figure src="VEM-1.png" title="DOFs of second-order VEM" numbered="true" >}} <br/>
 </font> 
@@ -128,7 +128,10 @@ $ \boldsymbol{\varphi}_i $ projected on the second-order polynomial space which 
   \end{split}
   \tag{7}
   \end{equation}
- where 
+ where $ \boldsymbol{\Pi} $ is the matrix representation of projector $ \Pi^\nabla $, and matrix $ \boldsymbol{G} $ is defined with entry $ \boldsymbol{G}_{\alpha \beta} = 
+  a^K \left ( \boldsymbol{p}_{\alpha} \boldsymbol{p}_{\beta} \right )$. <br/>
+  <br/>
+  As for 
   
   
 </DIV> 
