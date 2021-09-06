@@ -93,7 +93,7 @@ where $ dof_i( \boldsymbol{v}_h) $ represents the <i>i</i>th DOF of $ \boldsymbo
   \end{equation}
 where the subscripts <i>ij</i> indicate the location of entry in <i><b>k</b>^K</i>. <b>Now comes the most important part of VEM: define a projector 
   $ {\rm \Pi}^\nabla: V_h(K)\times V_h(K) \rightarrow  P^2 \times P^2 $ which maps the function $ /boldsymbol{v}_h $ in the space $ V_h(K)\times V_h(K) $
-  onto the second-order polynomial space $ P^2 \times P^2 $ satisfying the following orthogonality condition:
+  onto the second-order polynomial space $ P^2 \times P^2 $ satisfying the following orthogonality condition:</b>
   \begin{equation} \small
   a^K \left ( \boldsymbol{p}_\alpha, {\rm \Pi}^\nabla \boldsymbol{v}_h - \boldsymbol{v}_h  \right ) = 0, \quad 
   {\rm for}\ \forall \boldsymbol{p}_{\alpha} \in P_2 \times P_2 {\rm and} \boldsymbol{v}_h \in V_h \times V_h
@@ -105,8 +105,10 @@ where $ \boldsymbol{p}_{\alpha} $ are the polynomial basis functions that span t
   \Pi^\nabla\boldsymbol{\varphi}_j + \left ( \boldsymbol{\varphi}_j - \Pi^\nabla\boldsymbol{\varphi}_j   \right ) = \\
   \underbrace{a^K \left ( \Pi^\nabla\boldsymbol{\varphi}_i,\Pi^\nabla\boldsymbol{\varphi}_j \right )}_{\rm consistency} + 
   \underbrace{a^K \left ( \boldsymbol{\varphi}_i - \Pi^\nabla\boldsymbol{\varphi}_i, \boldsymbol{\varphi}_j - \Pi^\nabla\boldsymbol{\varphi}_j \right )}_{\rm stability}
-  \right ) = \left (\boldsymbol{k}_c^K \right)_{ij} + \left (\boldsymbol{k}_s^K \right)_{ij}
-  
+  \right ) = \left (\boldsymbol{k}_c^K \right)_{ij} + \left (\boldsymbol{k}_s^K \right)_{ij}  
   \tag{6}
   \end{equation}
+where $  $
+  
+  
 </DIV> 
