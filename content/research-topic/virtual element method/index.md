@@ -103,7 +103,7 @@ where $ \boldsymbol{p}_{\alpha} $ are the polynomial basis functions that span t
   \begin{equation} \small
   \begin{split}
   \left (\boldsymbol{k}^K \right)_{ij} &= a^K \left ( \Pi^\nabla\boldsymbol{\varphi}_i + \left ( \boldsymbol{\varphi}_i - \Pi^\nabla\boldsymbol{\varphi}_i   \right ), 
-  \Pi^\nabla\boldsymbol{\varphi}_j + \left ( \boldsymbol{\varphi}_j - \Pi^\nabla\boldsymbol{\varphi}_j   \right ) \right ) \\
+  \Pi^\nabla\boldsymbol{\varphi}_j + \left ( \boldsymbol{\varphi}_j - \Pi^\nabla\boldsymbol{\varphi}_j   \right ) \right ) \\\\
   &=\underbrace{a^K \left ( \Pi^\nabla\boldsymbol{\varphi}_i,\Pi^\nabla\boldsymbol{\varphi}_j \right )}_{\rm consistency} + 
   \underbrace{a^K \left ( \boldsymbol{\varphi}_i - \Pi^\nabla\boldsymbol{\varphi}_i, \boldsymbol{\varphi}_j - \Pi^\nabla\boldsymbol{\varphi}_j \right )}_{\rm stability}
   = \left (\boldsymbol{k}_c^K \right)_{ij} + \left (\boldsymbol{k}_s^K \right)_{ij} 
@@ -111,11 +111,7 @@ where $ \boldsymbol{p}_{\alpha} $ are the polynomial basis functions that span t
   \tag{6}
   \end{equation}
 where $ \Pi^\nabla \boldsymbol{\varphi}_i=\sum_{\alpha=1}^{12} S_{i,\alpha} \boldsymbol{p}_\alpha,\ \boldsymbol{p}_\alpha \in P^2\times P^2 $ is the image of basis function 
-$ \boldsymbol{\varphi}_i $ projected on the second-order polynomial space which is a linear combination of polynomial basis functions 
-  $ \boldsymbol{p}_{\alpha} $ with coefficients $ S_{i,/alpha} $, 
-  and $ \left ( \boldsymbol{k}^K  \right )_{ij} $ 
-  can be thus considered as the sum of consistency term $ \left ( \boldsymbol{k}_c^K  \right )_{ij} $ 
-  and stability term $ \left ( \boldsymbol{k}_s^K  \right )_{ij} $ as shown in Eq.(6). <br/>
+$ \boldsymbol{\varphi}_i $ projected on the second-order polynomial space which is a linear combination of polynomial basis functions $ \boldsymbol{p}_{\alpha} $ with coefficients $ S_{i,\alpha} $, and $ \left ( \boldsymbol{k}^K  \right )_{ij} $ can be thus considered as the sum of consistency term $ \left ( \boldsymbol{k}_c^K  \right )_{ij} $ and stability term $ \left ( \boldsymbol{k}_s^K  \right )_{ij} $ as shown in Eq.(6). <br/>
   <br/>
    Based on the defination of projector $ \Pi^\nabla $ and linearity of the stain tensor, the component-wise consistency term $ \left ( \boldsymbol{k}_c^K \right ) $ can be obtained explicitly as
   \begin{equation} \small
@@ -123,14 +119,12 @@ $ \boldsymbol{\varphi}_i $ projected on the second-order polynomial space which 
   \left ( \boldsymbol{k}_c^K \right ) &= \int_{\Omega^K} \boldsymbol{\sigma} \left ( \Pi^\nabla \boldsymbol{\varphi}_i  \right ):
   \boldsymbol{\epsilon} \left ( \Pi^\nabla \boldsymbol{\varphi}_j  \right ) d\Omege^K =
   \int_{\Omega^K} \boldsymbol{\sigma} \left ( \sum_{\alpha=1}^{12} S_{i,\alpha} \boldsymbol{p}_{\alpha}  \right ):
-  \boldsymbol{\epsilon} \left ( \sum_{\beta=1}^{12} S_{j,\beta} \boldsymbol{p}_{\beta}  \right ) d\Omege^K  \\\\\\
+  \boldsymbol{\epsilon} \left ( \sum_{\beta=1}^{12} S_{j,\beta} \boldsymbol{p}_{\beta}  \right ) d\Omege^K  \\\\
   &= \sum_{\alpha=1}^{12} \sum_{\beta=1}^{12} S_{i,\alpha}S_{j,\beta} \int_{\Omega^K} \boldsymbol{\sigma} \left ( \boldsymbol{p}_{\alpha} \right ):
   \boldsymbol{\epsilon} \left ( \boldsymbol{p}_{\beta} \right ) d\Omege^K = 
-  = \sum_{\alpha=1}^{12} \sum_{\beta=1}^{12} S_{i,\alpha}S_{j,\beta}a^K \left ( \boldsymbol{p}_{\alpha}, \boldsymbol{p}_{\beta} \right )  \\\\\\
+  = \sum_{\alpha=1}^{12} \sum_{\beta=1}^{12} S_{i,\alpha}S_{j,\beta}a^K \left ( \boldsymbol{p}_{\alpha}, \boldsymbol{p}_{\beta} \right )  \\\\
   &= \sum_{\alpha=1}^{12} \sum_{\beta=1}^{12} \boldsymbol{\Pi}_{i\alpha} \boldsymbol{\Pi}_{\beta j} \boldsymbol{G}_{\alpha \beta} 
-  = \left ( \boldsymbol{\Pi}^T \boldsymbol{G} \boldsymbol{\Pi}  \right )_{ij}, \quad {\rm for}\ i,j=1,2,...,12  
-  
-  
+  = \left ( \boldsymbol{\Pi}^T \boldsymbol{G} \boldsymbol{\Pi}  \right )_{ij}, \quad {\rm for}\ i,j=1,2,...,12    
   \end{split}
   \tag{7}
   \end{equation}
