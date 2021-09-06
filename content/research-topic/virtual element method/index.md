@@ -124,7 +124,10 @@ $ \boldsymbol{\varphi}_i $ projected on the second-order polynomial space which 
   \boldsymbol{\epsilon} \left ( \Pi^\nabla \boldsymbol{\varphi}_j  \right ) d\Omege^K =
   \int_{\Omega^K} \boldsymbol{\sigma} \left ( \sum_{\alpha=1}^{12} S_{i,\alpha} \boldsymbol{p}_{\alpha}  \right ):
   \boldsymbol{\epsilon} \left ( \sum_{\beta=1}^{12} S_{j,\beta} \boldsymbol{p}_{\beta}  \right ) d\Omege^K  \\\\\\
-  &= \sum_{\alpha=1}^{12} \sum_{\beta=1}^{12}
+  &= \sum_{\alpha=1}^{12} \sum_{\beta=1}^{12} S_{i,\alpha}S_{j,\beta} \int_{\Omega^K} \boldsymbol{\sigma} \left ( \boldsymbol{p}_{\alpha} \right ):
+  \boldsymbol{\epsilon} \left ( \boldsymbol{p}_{\beta} \right ) d\Omege^K = 
+  = \sum_{\alpha=1}^{12} \sum_{\beta=1}^{12} S_{i,\alpha}S_{j,\beta}a^K \left ( \boldsymbol{p}_{\alpha}, \boldsymbol{p}_{\beta} \right ) = \\\\\\
+  
   
   
   \end{split}
