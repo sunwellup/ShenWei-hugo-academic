@@ -74,8 +74,14 @@ where $ \lvert \boldsymbol{\Omega}^K \rvert $ is the area of element <i>K</i>. B
   \boldsymbol{v}_h = \sum_{i=1}^{12} \rm{dof}_i\left( \boldsymbol{v}_h \right ) \boldsymbol{\varphi}_i
   \tag{3}
   \end{equation}
-where $ dof_i( \boldsymbol{v}_h) $ represents the <i>i</i>th DOF of $ \boldsymbol{v}_h $ as given in types (i)-(iii) above, and $ \boldsymbol{\varphi}_i $ is the <i>i</i>th vector-valued basis function of the local virtual element space $  $ of element <i>K</i> with the following two properties
+where $ dof_i( \boldsymbol{v}_h) $ represents the <i>i</i>th DOF of $ \boldsymbol{v}_h $ as given in types (i)-(iii) above, and $ \boldsymbol{\varphi}_i $ is the <i>i</i>th vector-valued basis function of the local virtual element space $ V_h(K)\times V_h(K) $ of element <i>K</i> with the following two properties
+  <ul>
+  <li> <b>Property 1</b>: $ \boldsymbol{\varphi}_i(1,2,...,12) $ is a second-order polynomial on the element edge;</li>
+  <li> <b>Property 2</b>: $ \boldsymbol{\varphi}_i(1,2,...,12) $ satisfies the Kronecker-delta property, that is, for the <i>j</i>th DOF of element <i>K</i> we have 
+    $ \rm{dof}_j\left( \boldsymbol{\varphi}_i \right ) = \delta_{ij} $  </li>
+ </ul>
   
-    
-    
+  
+  
+  
  </DIV>  
