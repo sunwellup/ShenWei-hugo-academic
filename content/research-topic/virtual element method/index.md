@@ -42,7 +42,7 @@ url_video: ""
   \begin{equation} \small
   a^K\left ( \boldsymbol{u}^K, \boldsymbol{v}^K \right ) = \int_{\boldsymbol{\Omega}}^K \boldsymbol{\sigma\left ( \boldsymbol{u}^K\right )}:
   \boldsymbol{\epsilon\left ( \boldsymbol{v}\right )} d\boldsymbol{\Omega}^K = f^K \left( \boldsymbol{v}^K \right )=
-  \int_{\partial\boldsymbol{\Omega}^K} \boldsymbol{v}^K \cdot \boldsymbol{t} d{\partial\boldsymbol{\Omega}^K},\ \forall \boldsymbol{v}^K\in V\left(K\right) \times V\left(K\right)    
+  \int_{\partial\boldsymbol{\Omega}^K} \boldsymbol{v}^K \cdot \boldsymbol{t} d\partial\boldsymbol{\Omega}^K,\ \forall \boldsymbol{v}^K\in V\left(K\right) \times V\left(K\right)    
   \tag{1}
   \end{equation}
 where in Eq.(1) <i>$\boldsymbol\sigma$</i> and <i>$\boldsymbol\epsilon$</i> are the stress and strain tensors, respectively, and $ boldsymbol{v} $ is the test vector-value function which belongs to the local Sobolev space $ V(K)\times V(K) $ defined within the element <i>K</i>; $ \boldsymbol{u} $ is the solution of vector-value function to be found, typically the displacement vector in <i>x</i>- and <i>y</i>-directions; $ \boldsymbol{\Omega}^K $ is the element domain and $ \boldsymbol{\partial\Omega}^K $ is the corresponding Neumann boundary of element <i>K</i>. <br/>
@@ -58,7 +58,7 @@ where in Eq.(1) <i>$\boldsymbol\sigma$</i> and <i>$\boldsymbol\epsilon$</i> are 
   <li> $ \boldsymbol{v}_h $ is a vector with second-order polynomial components on each edge of element <i>K</i> </li>
   <li> $ \Delta \boldsymbol{v}_h $ is a vector with second-order polynomial components on each edge of element <i>K</i> </li> 
   </ul>  
-where $ \Delta $ is the Laplace operator. The corresponding DOFs of element <i>K</i> can be classified into the following three types <br/>
+where $ \Delta $ is the Laplace operator. <b> The corresponding DOFs of element <i>K</i> can be classified into the following three types </b>
   <ol style="list-style-type:lower-roman">
     <li> The values of $ \boldsymbol{v}_h $ at the 5 vertices of element <i>K</i> </li>
     <li> The values of $ \boldsymbol{v}_h $ at the 5 midpoints of 5 edges of element <i>K</i> </li>
@@ -84,6 +84,15 @@ where $ dof_i( \boldsymbol{v}_h) $ represents the <i>i</i>th DOF of $ \boldsymbo
  </DIV>  
 <font size="4" font face = "Times New Roman">
 <DIV align="justify">
+  Similar to classical Galerkin finite element method (FEM), the entry of local stiffness matrix <i><b>k</b>^K</i> of element <i>K</i> is calculated as 
+  \begin{equation} \small
+  \left (\boldsymbol{k}^K \right)_ij = a^K \left ( \boldsymbol{\varphi}_i, \boldsymbol{\varphi}_j \right )=
+  \int_{\boldsymbol{\Omega}^K} \boldsymbol{\sigma}\left ( \boldsymbol{\varphi}_i \right ) : \boldsymbol{\epsilon}\left ( \boldsymbol{\varphi}_j \right ) 
+  d\boldsymbol{\Omega}^K, \quad {\rm for}i,j=1,2,...,12
+  \tag{4}
+  \end{equation}
+where the subscripts <i>ij</i> indicate the location of entry in <i><b>k</b>^K</i>. <b>Now comes the most important part of VEM: 
+  
   
   
   
