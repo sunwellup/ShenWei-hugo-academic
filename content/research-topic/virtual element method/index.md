@@ -146,7 +146,7 @@ $ \boldsymbol{\varphi}_i $ projected on the second-order polynomial space which 
   where $ \overline{\boldsymbol{\Pi}} $ is the matrix representation of projection $ \overline{\Pi}^\nabla $. Based on Eq.(9), the stability term $ \left ( \boldsymbol{k}_s^K \right )_{ij} $ is calculated as
   \begin{equation} \small
   \left ( \boldsymbol{k}_s^K \right )_{ij} = \gamma \tau* \left ( \boldsymbol{I} - \overline{\boldsymbol{\Pi}}_i^T \right )
-  \left ( \boldsymbol{I} - \overline{\boldsymbol{\Pi}}_j \right )
+  \left ( \boldsymbol{I} - \overline{\boldsymbol{\Pi}}_j \right ) \quad {\rm for}\ i,j = 1,2,...,22
   
   \tag{10}
   \end{equation}
