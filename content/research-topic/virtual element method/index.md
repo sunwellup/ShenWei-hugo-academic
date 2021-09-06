@@ -100,9 +100,10 @@ where the subscripts <i>ij</i> indicate the location of entry in <i><b>k</b>^K</
   \tag{5}
   \end{equation}
 where $ \boldsymbol{p}_{\alpha} $ are the polynomial basis functions that span the second-order polynomial space $ P_2 \times P_2 $. Then Eq.(4) is reformulated by using the projector $ \Pi^\nabla $ as 
-  \begin{equation} \small
+  \begin{equation} 
+  \begin{multline} \small
   \left (\boldsymbol{k}^K \right)_{ij} = a^K \left ( \Pi^\nabla\boldsymbol{\varphi}_i + \left ( \boldsymbol{\varphi}_i - \Pi^\nabla\boldsymbol{\varphi}_i   \right ), 
-  \Pi^\nabla\boldsymbol{\varphi}_j + \left ( \boldsymbol{\varphi}_j - \Pi^\nabla\boldsymbol{\varphi}_j   \right ) \right )= \notag \\ 
+  \Pi^\nabla\boldsymbol{\varphi}_j + \left ( \boldsymbol{\varphi}_j - \Pi^\nabla\boldsymbol{\varphi}_j   \right ) \right )= \\ 
   \underbrace{a^K \left ( \Pi^\nabla\boldsymbol{\varphi}_i,\Pi^\nabla\boldsymbol{\varphi}_j \right )}_{\rm consistency} + 
   \underbrace{a^K \left ( \boldsymbol{\varphi}_i - \Pi^\nabla\boldsymbol{\varphi}_i, \boldsymbol{\varphi}_j - \Pi^\nabla\boldsymbol{\varphi}_j \right )}_{\rm stability}
   = \left (\boldsymbol{k}_c^K \right)_{ij} + \left (\boldsymbol{k}_s^K \right)_{ij}  
