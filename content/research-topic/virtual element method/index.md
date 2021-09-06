@@ -74,7 +74,7 @@ where $ \lvert \boldsymbol{\Omega}^K \rvert $ is the area of element <i>K</i>. B
   \boldsymbol{v}_h = \sum_{i=1}^{12} {\rm dof}_i\left( \boldsymbol{v}_h \right ) \boldsymbol{\varphi}_i
   \tag{3}
   \end{equation}
-where $ dof_i( \boldsymbol{v}_h) $ represents the <i>i</i>th DOF of $ \boldsymbol{v}_h $ as given in types (i)-(iii) above, and $ \boldsymbol{\varphi}_i $ is the <i>i</i>th vector-valued basis function of the local virtual element space $ V_h(K)\times V_h(K) $ of element <i>K</i> with the following two properties
+where $ {\rm dof}_i( \boldsymbol{v}_h) $ represents the <i>i</i>th DOF of $ \boldsymbol{v}_h $ as given in types (i)-(iii) above, and $ \boldsymbol{\varphi}_i $ is the <i>i</i>th vector-valued basis function of the local virtual element space $ V_h(K)\times V_h(K) $ of element <i>K</i> with the following two properties
   <ul>
   <li> <b>Property 1</b>: $ \boldsymbol{\varphi}_i(1,2,...,12) $ is a second-order polynomial on the element edge;</li>
   <li> <b>Property 2</b>: $ \boldsymbol{\varphi}_i(1,2,...,12) $ satisfies the Kronecker-delta property, that is, for the <i>j</i>th DOF of element <i>K</i> we have 
@@ -129,9 +129,25 @@ $ \boldsymbol{\varphi}_i $ projected on the second-order polynomial space which 
   \tag{7}
   \end{equation}
  where $ \boldsymbol{\Pi} $ is the matrix representation of projector $ \Pi^\nabla $, and matrix $ \boldsymbol{G} $ is defined with entry $ \boldsymbol{G}_{\alpha \beta} = 
-  a^K \left ( \boldsymbol{p}_{\alpha} \boldsymbol{p}_{\beta} \right )$. <br/>
+  a^K \left ( \boldsymbol{p}_{\alpha},\ \boldsymbol{p}_{\beta} \right )$. <br/>
   <br/>
-  As for 
-  
+  As for the stability term $ \left ( \boldsymbol{k}_s_K \right )_{ij} $ of element <i>K</i>, fistly define a 22-by-12 matrix <i><b>D</b></i> with entry as 
+  \begin{equation} \small
+  \boldsymbol{D}_{i\alpha} = {\rm dof}_i \left ( \boldsymbol{p}_{\alpha} \right ) \quad {\rm for} i=1,2,...,22\ {\rm and}\ \alpha=1,2,...,12
+  \tag{8}
+  \end{equation}
+  Next, by decomposing the image of projection $ \Pi^\nabla \boldsymbol{\varphi}_i $ by the vector-valued functions in the local virtual element space $ V_h \times V_h $, we can have the following matrix representation of another projection $ \overline{\Pi}^\nabla: V_h \times V_h \rightarrow V_h \times V_h  $ which maps the function in space $ V_h \times V_h $ onto itself
+  \begin{equation} \small
+  \overline{ \boldsymbol{\Pi} }_{ij} = {\rm dof}_i \left ( \Pi\nabla \boldsymbol{\varphi}_j  \right )
+  = {\rm dof}_i \left ( \sum_{\beta=1}^{12} S_{j,\beta} \boldsymbol{p}_{\beta} \right )
+  = \sum_{\beta=1}^{12} \boldsymbol{D}_{i \beta} \boldsymbol{\Pi}_{\beta j} = \left( \boldsymbol{D} \boldsymbol{\Pi} \right )_{ij} \quad {\rm for} i,j = 1,2,...,22 
+  \tag{9}
+  \end{equation}
+  where $ \overline{\boldsymbol{\Pi}} $ is the matrix representation of projection $ \overline{\Pi}^\nabla $. Based on Eq.(9), the stability term $ \left ( \boldsymbol{k}_s_K \right )_{ij} $ is calculated as
+  \begin{equation} \small
+  \left ( \boldsymbol{k}_s^K \right )_{ij} = \gamma \tau* \left( \boldsymbol{I} - \overline{\boldsymbol{Pi}} \right)_i^T  \left( \boldsymbol{I} - \overline{\boldsymbol{Pi} \right)_j \quad {\rm for} i,j=1,2,...,22
+  \tag{10}
+  \end{equation}
+  where $ \boldsymbol{I} $ is the 22-by-22 identity matrix;$ \gamma $ is the user-defined parameter which can be chosen as 1 for elastic problem, and $ \tau* $ can be calculated by various formulas, such as $ \tau*=trace(\boldsymbol{k}_c^K ) $. Hence, through Eqs.(1) to (10), one can calculate all the entries in local stiffness matrix $ \boldsymbol{k}^K $ of element <i>K</i>, and the global stiffness matrix can be obtained by assembling all the local stiffness matrices in the same manner as the classical Galerkin FEM.
   
 </DIV> 
