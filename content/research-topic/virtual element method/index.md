@@ -108,13 +108,12 @@ where $ \boldsymbol{p}_{\alpha} $ are the polynomial basis functions that span t
   = \left (\boldsymbol{k}_c^K \right)_{ij} + \left (\boldsymbol{k}_s^K \right)_{ij}  
   \tag{6}
   \end{equation}
-where $ \Pi^\nabla \boldsymbol{\varphi}_i = \sum_{\alpha=1}^{12} $
-  S_{i,\alpha} \boldsymbol{p}_\alpha,\ \boldsymbol{p}_\alpha \in P^2\times P^2 $ is the image of basis function 
+where $ \Pi^\nabla \boldsymbol{\varphi}_i = \sum_{\alpha=1}^{12} S_{i,\alpha} \boldsymbol{p}_\alpha,\ \boldsymbol{p}_\alpha \in P^2\times P^2 $ is the image of basis function 
 $ \boldsymbol{\varphi}_i $ projected on the second-order polynomial space which is a linear combination of polynomial basis functions 
   $ \boldsymbol{p}_{\alpha} $ with coefficients $ S_{i,/alpha} $, 
   and $ \left ( \boldsymbol{k}^K  \right )_{ij} $ 
   can be thus considered as the sum of consistency term $ \left ( \boldsymbol{k}_c^K  \right )_{ij} $ 
   and stability term $ \left ( \boldsymbol{k}_s^K  \right )_{ij} $ as shown in Eq.(6).
-   
+   Based on the defination of projector $ \Pi^\nabla $ and linearity of the stain tensor, the component-wise consistency term $ \left ( \boldsymbol \right ) $
   
 </DIV> 
