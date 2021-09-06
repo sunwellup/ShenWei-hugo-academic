@@ -117,7 +117,10 @@ $ \boldsymbol{\varphi}_i $ projected on the second-order polynomial space which 
   <br/>
    Based on the defination of projector $ \Pi^\nabla $ and linearity of the stain tensor, the component-wise consistency term $ \left ( \boldsymbol{k}_c^K \right ) $ can be obtained explicitly as
   \begin{equation} \small
-  \left ( \boldsymbol{k}_c^K \right ) = 
+  1 \\\\\\
+  2
+  
+
   
   \tag{7}
   \end{equation}
