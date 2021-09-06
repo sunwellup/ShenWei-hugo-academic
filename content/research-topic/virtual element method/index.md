@@ -116,6 +116,8 @@ $ \boldsymbol{\varphi}_i $ projected on the second-order polynomial space which 
   and stability term $ \left ( \boldsymbol{k}_s^K  \right )_{ij} $ as shown in Eq.(6). <br/>
   <br/>
    Based on the defination of projector $ \Pi^\nabla $ and linearity of the stain tensor, the component-wise consistency term $ \left ( \boldsymbol{k}_c^K \right ) $ can be obtained explicitly as
+  $$f(k;p\_0^\*) = \begin{cases} p\_0^\* & \text{if }k=1, \\\\\\
+1-p\_0^\* & \text {if }k=0.\end{cases}$$
   \begin{equation} \small
   1 \\\\\\
   2
