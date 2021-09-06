@@ -145,13 +145,10 @@ $ \boldsymbol{\varphi}_i $ projected on the second-order polynomial space which 
   \end{equation}
   where $ \overline{\boldsymbol{\Pi}} $ is the matrix representation of projection $ \overline{\Pi}^\nabla $. Based on Eq.(9), the stability term $ \left ( \boldsymbol{k}_s^K \right )_{ij} $ is calculated as
   \begin{equation} \small
-  \left ( \boldsymbol{k}_s^K \right ) = \gamma \tau* \left ( \boldsymbol{I} - \overline{\boldsymbol{\Pi}}_i^T \right )
-  \tag{10}
-  \end{equation}
-  
-  
+  \left ( \boldsymbol{k}_s^K \right ) = \gamma \tau^* \left ( \boldsymbol{I} - \overline{\boldsymbol{\Pi}}_i^T \right )
   \left ( \boldsymbol{I} - \overline{\boldsymbol{\Pi}}_j \right ) \quad {\rm for}\ i,j = 1,2,...,22
-  
-  where $ \boldsymbol{I} $ is the 22-by-22 identity matrix;$ \gamma $ is the user-defined parameter which can be chosen as 1 for elastic problem, and $ \tau* $ can be calculated by various formulas, such as $ \tau*={\rm trace} (\boldsymbol{k}_c^K ) $. Hence, through Eqs.(1) to (10), one can calculate all the entries in local stiffness matrix $ \boldsymbol{k}^K $ of element <i>K</i>, and the global stiffness matrix can be obtained by assembling all the local stiffness matrices in the same manner as the classical Galerkin FEM.
+  \tag{10}
+  \end{equation}  
+  where $ \boldsymbol{I} $ is the 22-by-22 identity matrix;$ \gamma $ is the user-defined parameter which can be chosen as 1 for elastic problem, and $ \tau* $ can be calculated by various formulas, such as $ \tau^*={\rm trace} (\boldsymbol{k}_c^K ) $. Hence, through Eqs.(1) to (10), one can calculate all the entries in local stiffness matrix $ \boldsymbol{k}^K $ of element <i>K</i>, and the global stiffness matrix can be obtained by assembling all the local stiffness matrices in the same manner as the classical Galerkin FEM.
   
 </DIV> 
