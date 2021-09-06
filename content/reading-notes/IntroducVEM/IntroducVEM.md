@@ -46,7 +46,9 @@ url_video: ""
   \end{equation}
 where in Eq.(1) $ a^K $ and $ f^K $ are the bilinear and linear form defined in the element <i>K</i>; $ \boldsymbol{\sigma} $ and $ \boldsymbol{\epsilon} $ are the stress and strain tensors, respectively, and $ \boldsymbol{v} $ is the test vector-value function which belongs to the local Sobolev space $ V(K)\times V(K) $ defined within the element <i>K</i>; $ \boldsymbol{u} $ is the solution of vector-value function to be found, typically the displacement vector in <i>x</i>- and <i>y</i>-directions; $ \boldsymbol{\Omega}^K $ is the element domain and $ \boldsymbol{\partial\Omega}^K $ is the corresponding Neumann boundary of element <i>K</i>. <br/>
 </DIV> 
+  
 {{< figure src="VEM-1.png" title="DOFs of second-order VEM" numbered="true" >}} <br/>
+  
 </font> 
   
 <font size="4" font face = "Times New Roman">
