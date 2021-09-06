@@ -84,14 +84,14 @@ where $ dof_i( \boldsymbol{v}_h) $ represents the <i>i</i>th DOF of $ \boldsymbo
  </DIV>  
 <font size="4" font face = "Times New Roman">
 <DIV align="justify">
-  Similar to classical Galerkin finite element method (FEM), the entry of local stiffness matrix <i><b>k</b>^K</i> of element <i>K</i> is calculated as 
+  Similar to classical Galerkin finite element method (FEM), the entry of local stiffness matrix <i><b>k</b><sup>K</sup></i> of element <i>K</i> is calculated as 
   \begin{equation} \small
   \left (\boldsymbol{k}^K \right)_{ij} = a^K \left ( \boldsymbol{\varphi}_i, \boldsymbol{\varphi}_j \right )=
   \int_{\boldsymbol{\Omega}^K} \boldsymbol{\sigma}\left ( \boldsymbol{\varphi}_i \right ) : \boldsymbol{\epsilon}\left ( \boldsymbol{\varphi}_j \right ) 
   d\boldsymbol{\Omega}^K, \quad {\rm for}\ i,j=1,2,...,12
   \tag{4}
   \end{equation}
-where the subscripts <i>ij</i> indicate the location of entry in <i><b>k</b>^K</i>. <b>Now comes the most important part of VEM: define a projector 
+where the subscripts <i>ij</i> indicate the location of entry in <i><b>k</b><sup>K</sup></i>. <b>Now comes the most important part of VEM: define a projector 
   $ {\rm \Pi}^\nabla: V_h(K)\times V_h(K) \rightarrow  P^2 \times P^2 $ which maps the function $ \boldsymbol{v}_h $ in the space $ V_h(K)\times V_h(K) $
   onto the second-order polynomial space $ P^2 \times P^2 $ satisfying the following orthogonality condition:</b>
   \begin{equation} \small
@@ -117,18 +117,18 @@ $ \boldsymbol{\varphi}_i $ projected on the second-order polynomial space which 
   \begin{equation} \small
   \begin{split}
   \left ( \boldsymbol{k}_c^K \right ) &= \int_{\Omega^K} \boldsymbol{\sigma} \left ( \Pi^\nabla \boldsymbol{\varphi}_i  \right ):
-  \boldsymbol{\epsilon} \left ( \Pi^\nabla \boldsymbol{\varphi}_j  \right ) d\Omege^K =
+  \boldsymbol{\epsilon} \left ( \Pi^\nabla \boldsymbol{\varphi}_j  \right ) d\Omega^K =
   \int_{\Omega^K} \boldsymbol{\sigma} \left ( \sum_{\alpha=1}^{12} S_{i,\alpha} \boldsymbol{p}_{\alpha}  \right ):
-  \boldsymbol{\epsilon} \left ( \sum_{\beta=1}^{12} S_{j,\beta} \boldsymbol{p}_{\beta}  \right ) d\Omege^K  \\\\
+  \boldsymbol{\epsilon} \left ( \sum_{\beta=1}^{12} S_{j,\beta} \boldsymbol{p}_{\beta}  \right ) d\Omega^K  \\\\
   &= \sum_{\alpha=1}^{12} \sum_{\beta=1}^{12} S_{i,\alpha}S_{j,\beta} \int_{\Omega^K} \boldsymbol{\sigma} \left ( \boldsymbol{p}_{\alpha} \right ):
-  \boldsymbol{\epsilon} \left ( \boldsymbol{p}_{\beta} \right ) d\Omege^K = 
+  \boldsymbol{\epsilon} \left ( \boldsymbol{p}_{\beta} \right ) d\Omega^K = 
   = \sum_{\alpha=1}^{12} \sum_{\beta=1}^{12} S_{i,\alpha}S_{j,\beta}a^K \left ( \boldsymbol{p}_{\alpha}, \boldsymbol{p}_{\beta} \right )  \\\\
   &= \sum_{\alpha=1}^{12} \sum_{\beta=1}^{12} \boldsymbol{\Pi}_{i\alpha} \boldsymbol{\Pi}_{\beta j} \boldsymbol{G}_{\alpha \beta} 
   = \left ( \boldsymbol{\Pi}^T \boldsymbol{G} \boldsymbol{\Pi}  \right )_{ij}, \quad {\rm for}\ i,j=1,2,...,12    
   \end{split}
   \tag{7}
   \end{equation}
-  
+ where 
   
   
 </DIV> 
