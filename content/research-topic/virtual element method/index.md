@@ -92,7 +92,7 @@ where $ dof_i( \boldsymbol{v}_h) $ represents the <i>i</i>th DOF of $ \boldsymbo
   \tag{4}
   \end{equation}
 where the subscripts <i>ij</i> indicate the location of entry in <i><b>k</b>^K</i>. <b>Now comes the most important part of VEM: define a projector 
-  $ {\rm \Pi}^\nabla: V_h(K)\times V_h(K) \rightarrow  P^2 \times P^2 $ which maps the function $ /boldsymbol{v}_h $ in the space $ V_h(K)\times V_h(K) $
+  $ {\rm \Pi}^\nabla: V_h(K)\times V_h(K) \rightarrow  P^2 \times P^2 $ which maps the function $ \boldsymbol{v}_h $ in the space $ V_h(K)\times V_h(K) $
   onto the second-order polynomial space $ P^2 \times P^2 $ satisfying the following orthogonality condition:</b>
   \begin{equation} \small
   a^K \left ( \boldsymbol{p}_\alpha, {\rm \Pi}^\nabla \boldsymbol{v}_h - \boldsymbol{v}_h  \right ) = 0, \quad 
@@ -101,14 +101,14 @@ where the subscripts <i>ij</i> indicate the location of entry in <i><b>k</b>^K</
   \end{equation}
 where $ \boldsymbol{p}_{\alpha} $ are the polynomial basis functions that span the second-order polynomial space $ P_2 \times P_2 $. Then Eq.(4) is reformulated by using the projector $ \Pi^\nabla $ as 
   \begin{equation} \small
-  \left (\boldsymbol{k}^K \right)_{ij} = ^K \left ( \Pi^\nabla\boldsymbol{\varphi}_i + \left ( \boldsymbol{\varphi}_i - \Pi^\nabla\boldsymbol{\varphi}_i   \right ), 
-  \Pi^\nabla\boldsymbol{\varphi}_j + \left ( \boldsymbol{\varphi}_j - \Pi^\nabla\boldsymbol{\varphi}_j   \right ) = \\
+  \left (\boldsymbol{k}^K \right)_{ij} = a^K \left ( \Pi^\nabla\boldsymbol{\varphi}_i + \left ( \boldsymbol{\varphi}_i - \Pi^\nabla\boldsymbol{\varphi}_i   \right ), 
+  \Pi^\nabla\boldsymbol{\varphi}_j + \left ( \boldsymbol{\varphi}_j - \Pi^\nabla\boldsymbol{\varphi}_j   \right ) \right ) =\\
   \underbrace{a^K \left ( \Pi^\nabla\boldsymbol{\varphi}_i,\Pi^\nabla\boldsymbol{\varphi}_j \right )}_{\rm consistency} + 
   \underbrace{a^K \left ( \boldsymbol{\varphi}_i - \Pi^\nabla\boldsymbol{\varphi}_i, \boldsymbol{\varphi}_j - \Pi^\nabla\boldsymbol{\varphi}_j \right )}_{\rm stability}
-  \right ) = \left (\boldsymbol{k}_c^K \right)_{ij} + \left (\boldsymbol{k}_s^K \right)_{ij}  
+  = \left (\boldsymbol{k}_c^K \right)_{ij} + \left (\boldsymbol{k}_s^K \right)_{ij}  
   \tag{6}
   \end{equation}
-where $  $
+where $ \Pi^\nabla \boldsymbol{\varphi}_i = \sum_{} $
   
   
 </DIV> 
