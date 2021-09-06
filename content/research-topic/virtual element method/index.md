@@ -34,18 +34,11 @@ url_video: ""
 ---
 <font size="4" font face = "Times New Roman">
 <DIV align="justify">
-  
-  <br/>
-  
+  Virtual element method (VEM) is firstly proposed by L. Beirão da Veiga [1] which has the following feature
   <ul>
-  <li> $ \boldsymbol{v}_h $ is continuous on the boundary of element <i>K</i> </li>
-  <li> $ \boldsymbol{v}_h $ is a vector with second-order polynomial components on each edge of element <i>K</i> </li>
-  <li> $ \Delta \boldsymbol{v}_h $ is a vector with second-order polynomial components on each edge of element <i>K</i> </li> 
+  <li> VEM can be applied to arbitrary polygonal mesh </li>
+  <li> VEM is able to handle hanging nodes on element edge> </li>
   </ul>  
-where $ \Delta $ is the Laplace operator. <b> The corresponding DOFs of element <i>K</i> can be classified into the following three types </b>
-  <ol style="list-style-type:lower-roman">
-    <li> The values of $ \boldsymbol{v}_h $ at the 5 vertices of element <i>K</i> </li>
-    <li> The values of $ \boldsymbol{v}_h $ at the 5 midpoints of 5 edges of element <i>K</i> </li>
-    <li> The two moments of $ \boldsymbol{v}_h $ with respect to the constant vectors $ \boldsymbol{p}_1=[1,0]^T $ and $ \boldsymbol{p}_2=[0,1]^T $ in element <i>K</i>, that is 
+These two features have made VEM a power tool and have 
   
 </DIV> 
