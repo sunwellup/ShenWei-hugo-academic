@@ -69,16 +69,16 @@ where $ \Delta $ is the Laplace operator. <b> The corresponding DOFs of element 
     \tag{2}
     \end{equation}
   </ol>
-where $ \lvert \boldsymbol{\Omega}^K \rvert $ is the area of element <i>K</i>. Based on the DOFs of types (i)-(iii), the total number of DOFs of element <i>K</i> for the second-order VEM is 5+5+2=12. Therefore, the function $ \boldsymbol{v}_h $ is obtained by a linear combination of the basis functions in $ V_h(K)\times V_h(K) $ as follow
+where $ \lvert \boldsymbol{\Omega}^K \rvert $ is the area of element <i>K</i>. Based on the DOFs of types (i)-(iii), the total number of DOFs of element <i>K</i> for the second-order VEM is 10+10+2=22. Therefore, the function $ \boldsymbol{v}_h $ is obtained by a linear combination of the basis functions in $ V_h(K)\times V_h(K) $ as follow
   \begin{equation} \small
-  \boldsymbol{v}_h = \sum_{i=1}^{12} {\rm dof}_i\left( \boldsymbol{v}_h \right ) \boldsymbol{\varphi}_i
+  \boldsymbol{v}_h = \sum_{i=1}^{22} {\rm dof}_i\left( \boldsymbol{v}_h \right ) \boldsymbol{\varphi}_i
   \tag{3}
   \end{equation}
 where $ {\rm dof}_i( \boldsymbol{v}_h) $ represents the <i>i</i>th DOF of $ \boldsymbol{v}_h $ as given in types (i)-(iii) above, and $ \boldsymbol{\varphi}_i $ is the <i>i</i>th vector-valued basis function of the local virtual element space $ V_h(K)\times V_h(K) $ of element <i>K</i> with the following two properties
   <ul>
-  <li> <b>Property 1</b>: $ \boldsymbol{\varphi}_i(1,2,...,12) $ is a second-order polynomial on the element edge;</li>
-  <li> <b>Property 2</b>: $ \boldsymbol{\varphi}_i(1,2,...,12) $ satisfies the Kronecker-delta property, that is, for the <i>j</i>th DOF of element <i>K</i> we have 
-    $ {\rm dof}_j\left( \boldsymbol{\varphi}_i \right ) = \delta_{ij},\ i,j=1,2,...,12 $  </li>
+  <li> <b>Property 1</b>: $ \boldsymbol{\varphi}_i(1,2,...,22) $ is a second-order polynomial on the element edge;</li>
+  <li> <b>Property 2</b>: $ \boldsymbol{\varphi}_i(1,2,...,22) $ satisfies the Kronecker-delta property, that is, for the <i>j</i>th DOF of element <i>K</i> we have 
+    $ {\rm dof}_j\left( \boldsymbol{\varphi}_i \right ) = \delta_{ij},\ i,j=1,2,...,22 $  </li>
  </ul>
   </br>
  </DIV>  
@@ -88,7 +88,7 @@ where $ {\rm dof}_i( \boldsymbol{v}_h) $ represents the <i>i</i>th DOF of $ \bol
   \begin{equation} \small
   \left (\boldsymbol{k}^K \right)_{ij} = a^K \left ( \boldsymbol{\varphi}_i, \boldsymbol{\varphi}_j \right )=
   \int_{\boldsymbol{\Omega}^K} \boldsymbol{\sigma}\left ( \boldsymbol{\varphi}_i \right ) : \boldsymbol{\epsilon}\left ( \boldsymbol{\varphi}_j \right ) 
-  d\boldsymbol{\Omega}^K, \quad {\rm for}\ i,j=1,2,...,12
+  d\boldsymbol{\Omega}^K, \quad {\rm for}\ i,j=1,2,...,22
   \tag{4}
   \end{equation}
 where the subscripts <i>ij</i> indicate the location of entry in $ \boldsymbol{k}^K $. <b>Now comes the most important part of VEM: define a projector 
