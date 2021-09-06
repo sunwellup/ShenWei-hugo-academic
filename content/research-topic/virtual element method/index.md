@@ -96,7 +96,7 @@ where the subscripts <i>ij</i> indicate the location of entry in <i><b>k</b>^K</
   onto the second-order polynomial space $ P^2 \times P^2 $ satisfying the following orthogonality condition:</b>
   \begin{equation} \small
   a^K \left ( \boldsymbol{p}_\alpha, {\rm \Pi}^\nabla \boldsymbol{v}_h - \boldsymbol{v}_h  \right ) = 0, \quad 
-  {\rm for}\ \forall \boldsymbol{p}_{\alpha} \in P_2 \times P_2 {\rm and} \boldsymbol{v}_h \in V_h \times V_h
+  {\rm for}\ \forall \boldsymbol{p}_{\alpha} \in P_2 \times P_2\ {\rm and}\ \boldsymbol{v}_h \in V_h \times V_h
   \tag{5}
   \end{equation}
 where $ \boldsymbol{p}_{\alpha} $ are the polynomial basis functions that span the second-order polynomial space $ P_2 \times P_2 $. Then Eq.(4) is reformulated by using the projector $ \Pi^\nabla $ as 
@@ -120,17 +120,21 @@ $ \boldsymbol{\varphi}_i $ projected on the second-order polynomial space which 
    Based on the defination of projector $ \Pi^\nabla $ and linearity of the stain tensor, the component-wise consistency term $ \left ( \boldsymbol{k}_c^K \right ) $ can be obtained explicitly as
   \begin{equation} \small
   \begin{split}
-  \left ( \boldsymbol{k}_c^K \right ) = \int_{\Omega^K} \boldsymbol{\sigma} \left ( \Pi^\nabla \boldsymbol{\varphi}_i  \right ):
+  \left ( \boldsymbol{k}_c^K \right ) &= \int_{\Omega^K} \boldsymbol{\sigma} \left ( \Pi^\nabla \boldsymbol{\varphi}_i  \right ):
   \boldsymbol{\epsilon} \left ( \Pi^\nabla \boldsymbol{\varphi}_j  \right ) d\Omege^K =
   \int_{\Omega^K} \boldsymbol{\sigma} \left ( \sum_{\alpha=1}^{12} S_{i,\alpha} \boldsymbol{p}_{\alpha}  \right ):
   \boldsymbol{\epsilon} \left ( \sum_{\beta=1}^{12} S_{j,\beta} \boldsymbol{p}_{\beta}  \right ) d\Omege^K  \\\\\\
   &= \sum_{\alpha=1}^{12} \sum_{\beta=1}^{12} S_{i,\alpha}S_{j,\beta} \int_{\Omega^K} \boldsymbol{\sigma} \left ( \boldsymbol{p}_{\alpha} \right ):
   \boldsymbol{\epsilon} \left ( \boldsymbol{p}_{\beta} \right ) d\Omege^K = 
-  = \sum_{\alpha=1}^{12} \sum_{\beta=1}^{12} S_{i,\alpha}S_{j,\beta}a^K \left ( \boldsymbol{p}_{\alpha}, \boldsymbol{p}_{\beta} \right ) = \\\\\\
-  
+  = \sum_{\alpha=1}^{12} \sum_{\beta=1}^{12} S_{i,\alpha}S_{j,\beta}a^K \left ( \boldsymbol{p}_{\alpha}, \boldsymbol{p}_{\beta} \right )  \\\\\\
+  &= \sum_{\alpha=1}^{12} \sum_{\beta=1}^{12} \boldsymbol{\Pi}_{i\alpha} \boldsymbol{\Pi}_{\beta j} \boldsymbol{G}_{\alpha \beta} 
+  = \left ( \boldsymbol{\Pi}^T \boldsymbol{G} \boldsymbol{\Pi}  \right )_{ij}, \quad {\rm for}\ i,j=1,2,...,12  
   
   
   \end{split}
-  \tag{6}
+  \tag{7}
   \end{equation}
+  
+  
+  
 </DIV> 
