@@ -1,10 +1,11 @@
 ---
 title: Shape and topology optimization of plane frame
-summary: Ground structure method is widely used for truss-like or skeleton structure, and in some cases the optimization problem can be further reduced to linear programming problem or convex optimization such as second order cone optimization. On the other hand, simultaneous shape and topology optimization can start from a rather sparse initial structure where not all the possible connections among the nodes are needed.
+summary: Compared to ground structure method, simultaneous shape and topology optimization can start from a rather sparse initial structure where not all the possible connections among the nodes are needed.
 tags:
-- Ground structure method
 - Shape and topogy optimization of plane frame
-- Convex and nonlinear programming
+- Force density method
+- sensitivity analysis
+- optimization under uncertainty
 date: "2021-08-30T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
