@@ -43,8 +43,8 @@ A number of researches are implemented to  exploit the effectiveness and applica
 </DIV>
   
  
-  <img src="VEM-2.png" style="width: 50%; height: 30%; float:left" />
-  <img src="VEM-3.png" style="width: 50%; height: 30%; float:left" />
+  <img src="VEM-2.png" style="width: 50%; height: 50%" />
+  <img src="VEM-3.png" style="width: 50%; height: 50%; float:left" />
  
   
   
