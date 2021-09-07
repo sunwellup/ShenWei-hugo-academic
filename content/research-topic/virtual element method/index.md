@@ -44,11 +44,9 @@ A number of researches are implemented to  exploit the effectiveness and applica
 <figure class="half" style="display:flex; align-items: flex-end">
   <img src="VEM-2.png" style ="width: 50%; height: 50%"> 
   <img src="VEM-3.png" style ="width: 50%; height: 50%"> 
+  <figcaption> Fig.1 Model of patch test: (left) Geometry models of two elastic blocks (right) Second-order VEM discretization </figcaption>
 </figure>
- 
+
 </DIV> 
-  
-<font size="4" font face = "Times New Roman">
-<DIV align="center">
-  
-</DIV> 
+
+
