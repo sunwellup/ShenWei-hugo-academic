@@ -43,7 +43,7 @@ A number of researches are implemented to  exploit the effectiveness and applica
 
 <figure class="half" style="display:flex; align-items: flex-end">
   <img src="VEM-2.png" style ="width: 50%; height: 50%"> 
-  <img src="VEM-2.png" style ="width: 50%; height: 50%"> 
+  <img src="VEM-3.png" style ="width: 50%; height: 50%"> 
 </figure>
  
 </DIV> 
