@@ -55,13 +55,11 @@ A number of researches are implemented to  exploit the effectiveness and applica
   <DIV align="CENTER">
     <b>FIG.2:</b> Results of patch test; (left) Deformed shape, (right) Stress contour of $ \sigma_{22} $
   </DIV>
-  
-Facing 
- 
-  
+<br/> 
+There are still a lot more fascinating and interesting properties of VEM waited to be studied, and right now I would like to keep researching on VEM with the following directions
  <ul>
-  <li> VEM can be applied to arbitrary polygonal mesh </li>
-  <li> VEM is able to handle hanging nodes on element edge </li>
+  <li> Application of VEM with structural topology optimization </li>
+  <li> Nonlinear and multiscale analysis using VEM </li>
  </ul>  
   
 </DIV> 
