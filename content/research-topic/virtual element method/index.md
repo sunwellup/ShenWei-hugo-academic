@@ -39,7 +39,7 @@ url_video: ""
   <li> VEM can be applied to arbitrary polygonal mesh </li>
   <li> VEM is able to handle hanging nodes on element edge </li>
   </ul>  
-A number of researches are implemented to  exploit the effectiveness and application of VEM, including elastic analysis [2], finite deformation analysis[3], contact analysis [4], fracture analysis [5] and structural topology optimization [6]. Based on Ref. [4], the study contact analysis with non-matching contact interface by using second-order VEM is investigated. The results show that even with irregular element shape and non-matching interface, the patch test is passed as shown in Figs.1-2. 
+A number of researches are implemented to  exploit the effectiveness and application of VEM, including elastic analysis [2], finite deformation analysis[3], contact analysis [4], fracture analysis [5] and structural topology optimization [6]. Based on Ref. [4], the study contact analysis with non-matching contact interface by using second-order VEM is investigated as in Fig.1. The results in Fig.2 show that even with irregular element shape and non-matching interface the patch test is also passed without biased stress distribution along the contact interface.
 
 <figure class="half" style="display:flex; align-items: flex-end">
   <img src="VEM-2.png" style ="width: 50%; height: 50%"> 
@@ -51,11 +51,12 @@ A number of researches are implemented to  exploit the effectiveness and applica
 <figure class="half" style="display:flex; align-items: flex-end">
   <img src="featured.jpg" style ="width: 50%; height: 50%"> 
   <img src="VEM-4.png" style ="width: 50%; height: 50%"> 
+</figure>
   <DIV align="CENTER">
     <b>FIG.2:</b> Results of patch test; (left) Deformed shape, (right) Stress contour of $ \sigma_{22} $
   </DIV>
-</figure>
-
+  
+Facing 
  
   
  <ul>
