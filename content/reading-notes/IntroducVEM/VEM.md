@@ -49,7 +49,8 @@ where in Eq.(1) $ a^K $ and $ f^K $ are the bilinear and linear form defined in 
   
   <img src="VEM-1.png">
   <DIV align="center">
-    <b>FIG.1:</b> DOFs of second-order VEM on pentagon element <i>K</i>  
+    <b>FIG.1:</b> DOFs of second-order VEM on pentagon element <i>K</i> <br/>
+    <br/>
   </DIV>
 </font> 
   
