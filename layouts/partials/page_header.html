@@ -42,7 +42,8 @@
 
 {{/* Fit image within max size. */}}
 {{ $image := $featured }}
-{{ $image := $resource.Resize "600x" }}
+{{ $image := $featured.Resize "600x" }}
+
 {{/* Determine image placement. */}}
 {{ $placement := .Params.image.placement | default 1 }}{{/* Default to full column width. */}}
 {{ $image_container := "" }}
