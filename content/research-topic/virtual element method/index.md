@@ -51,12 +51,17 @@ A number of researches are implemented to  exploit the effectiveness and applica
 <figure class="half" style="display:flex; align-items: flex-end">
   <img src="featured.jpg" style ="width: 50%; height: 50%"> 
   <img src="VEM-4.png" style ="width: 50%; height: 50%"> 
-</figure>
   <DIV align="CENTER">
     <b>FIG.2:</b> Results of patch test; (left) Deformed shape, (right) Stress contour of $ \sigma_{22} $
   </DIV>
+</figure>
+
+ 
   
-  
+ <ul>
+  <li> VEM can be applied to arbitrary polygonal mesh </li>
+  <li> VEM is able to handle hanging nodes on element edge </li>
+ </ul>  
   
 </DIV> 
 
