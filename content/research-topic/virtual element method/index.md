@@ -40,10 +40,10 @@ url_video: ""
   <li> VEM is able to handle hanging nodes on element edge </li>
   </ul>  
 A number of researches are implemented to  exploit the effectiveness and application of VEM, including elastic analysis [2], finite deformation analysis[3], contact analysis [4], fracture analysis [5] and structural topology optimization [6]. Based on Ref. [4], the study contact analysis with non-matching contact interface by using second-order VEM is investigated. The results show that even with irregular element shape and non-matching interface, the patch test is passed as shown in Figs.1-2. Moreover, and the accuracy of the VEM is also satisfied when compared to the results obtained by ABAQUS as shown in Fig.2.
-<table align=center>
+<table>
   <tr> 
-  <td> <img src="VEM-2.png" style="width: 30%; height: 30%"> </td>
-  <td> <img src="VEM-3.png" style="width: 30%; height: 30%"> </td>
+  <td> <img src="VEM-2.png" style="width: 50%; height: 50%"> </td>
+  <td> <img src="VEM-3.png" style="width: 50%; height: 50%"> </td>
   </tr>
 </table>   
 </DIV> 
