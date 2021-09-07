@@ -14,7 +14,8 @@ external_link: ""
 image:
   caption: Benchmark test with L-shaped element using VEM
   focal_point: Smart
-
+  preview_only: false
+{{ $image := $resource.Resize "600x" }}  
 links:
 # - icon: twitter
 #  icon_pack: fab
