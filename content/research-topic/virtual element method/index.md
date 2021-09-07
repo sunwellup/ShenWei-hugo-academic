@@ -49,7 +49,7 @@ A number of researches are implemented to  exploit the effectiveness and applica
     <b>FIG.1:</b> Model of Example 1; (left) Geometry models of two elastic blocks, (right) Second-order VEM discretization
   </DIV>
 <figure class="half" style="display:flex; align-items: flex-end">
-  <img src="featured.png" style ="width: 50%; height: 50%"> 
+  <img src="featured.jpg" style ="width: 50%; height: 50%"> 
   <img src="VEM-4.png" style ="width: 50%; height: 50%"> 
 </figure>
   <DIV align="CENTER">
