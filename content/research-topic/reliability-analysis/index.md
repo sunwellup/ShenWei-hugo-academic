@@ -114,10 +114,7 @@ url_video: ""
 
   \begin{table}[]
   \begin{tabular}{lllll}
-  1 & 1 & 1 & 1 & 1 \\
-  1 & 1 & 1 & 1 & 1 \\
-  1 & 1 & 1 & 1 & 1 \\
-  1 & 1 & 1 & 1 & 1
+
   \end{tabular}
   \end{table}
 
