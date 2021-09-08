@@ -53,7 +53,7 @@ url_video: ""
     <li> minimize the function evaluations </li>
     <li> find the most appropriate probability distribution or explicit approximation of the implicit limt state function </li>
   </ul>
-  To achieve this goal,a polynomial response surface method with adapative bivariate dimensional reduction method is proposed in which a criteria is introduced to eliminate the unnecessary quadratic term in response surface function [5]. In this way the efficiency could be enhanced without great loss of accuracy. An numerical example of cantilever beam, which is shown in Fig.1, is used to investigated the effectiveness of proposed method. The limit state function is defined as the displacement of point B is equal to 15mm in vertical direction and the limit state function is then formulated  as [7]
+  To achieve this goal,a polynomial response surface method with adapative bivariate dimensional reduction method is proposed [5] in which a criteria is introduced to eliminate the unnecessary quadratic term in response surface function [6]. In this way the efficiency could be enhanced without great loss of accuracy. An numerical example of cantilever beam, which is shown in Fig.1, is used to investigated the effectiveness of proposed method. The limit state function is defined as the displacement of point B is equal to 15mm in vertical direction and the limit state function is then formulated  as [7]
   \begin{equation} \small
   g \left (q,F_1,F_2,E \right )=15 - \frac{qL^4}{8EI}-\frac{5 F_1 L^3}{48EI} - \frac{F_2 L^3}{3EI}
   \tag{3}
@@ -118,11 +118,15 @@ url_video: ""
 
   However, the method only consider component reliability analysis within linear elasticity case. In the future I would like to dig more about structural reliability analysis in system or dynamic case.
 
-  </br>
+  <br/>
   Reference <br/>
-  [1] </br>
-  [2] </br>
-
+  [1] <a href="https://www.wiley.com/en-us/Simulation+and+the+Monte+Carlo+Method%2C+3rd+Edition-p-9781118632161" target="_blank" rel="noopener noreferrer">Rubinstein RY (1981) Simulation and the Monte Carlo method.Wiley,New York </a><br/>
+  [2] <a href="https://www.sciencedirect.com/science/article/pii/0167473082900248" target="_blank" rel="noopener noreferrer">Hohenbichler M, Rackwitz R (1982) First-order concepts in system reliability. Structural safety 1(3): 177-188. </a><br/>
+  [3] <a href="https://ascelibrary.org/doi/abs/10.1061/(ASCE)0733-9399(1984)110:3(357)" target="_blank" rel="noopener noreferrer">Breitung K (1984) Asymptotic approximations for multinormal integrals. Journal of Engineering Mechanics 110(3): 357-366.</a><br/>
+  [4] <a href="https://link.springer.com/article/10.1007%2Fs00158-011-0656-5" target="_blank" rel="noopener noreferrer">Xi Z, Hu C, Youn BD (2012) A comparative study of probability estimation methods for reliability analysis. Struct Multidiscip Optim 45:33–52.</a><br/> 
+  [5] <a href="https://www.emerald.com/insight/content/doi/10.1108/EC-06-2020-0343/full/html?utm_source=rss&utm_medium=feed&utm_campaign=rss_journalLatest" target="_blank" rel="noopener noreferrer">Fan W, Shen W, Zhang Q, et al. A new response surface method based on the adaptive bivariate cut-HDMR. Engineering Computations.</a><br/> 
+  [6] <a href="https://www.sciencedirect.com/science/article/pii/S0266892015300527" target="_blank" rel="noopener noreferrer">Fan W, Wei J, Ang AHS, Li Z (2016) Adaptive estimation of statistical moments of the responses of random systems. Probabilistic Eng Mech 43:50–67.</a><br/> 
+  [7] <a href="https://www.sciencedirect.com/science/article/pii/S0045782508003617" target="_blank" rel="noopener noreferrer">Chowdhury R, Rao BN (2009) Hybrid High Dimensional Model Representation for reliability analysis. Computer Methods in Applied Mechanics & Engineering 198(5 :753-765.</a><br/> 
 
 </DIV> 
 
