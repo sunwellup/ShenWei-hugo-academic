@@ -9,7 +9,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 20
 
-title: External link
+title: Links
 subtitle:
 
 # content:
@@ -30,9 +30,11 @@ subtitle:
 ---
 <font size="4" font face = "Times New Roman">
 <DIV align="justify">
-<a href="https://onlinelibrary.wiley.com/doi/full/10.1002/nme.6676" target="_blank" style="text-decoration:underline;">ISSMO: International Society for Structural and Multidisciplinary Optimization</a><br/>  
-
-
+<a href="https://www.issmo.net/" target="_blank" style="text-decoration:underline;">ISSMO: International Society for Structural and Multidisciplinary Optimization</a><br>  
+<a href="http://assmo.org/" target="_blank" style="text-decoration:underline;">ASSMO: Asian Society of Structural and Multidisciplinary Optimization</a><br> 
+Reserc:<br/>
+<a href="http://assmo.org/" target="_blank" style="text-decoration:underline;">Homepage of Building Mechanics Group, Kyoto university </a><br>
+<a href="http://assmo.org/" target="_blank" style="text-decoration:underline;">Homepage of Dr. Shaojun Zhu (Steel structure, Machine learning based optimization) </a><br> 
 
 </DIV>
 
