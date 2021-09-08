@@ -112,11 +112,6 @@ url_video: ""
     </tr>
   </table>
 
-  \begin{center}
-  \begin{tabular}{ c }
-    cell1 & cell2 & cell3    
-  \end{tabular}
-  \end{center}
 
 <font size="4" font face = "Times New Roman">
 <DIV align="justify">
