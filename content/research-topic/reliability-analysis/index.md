@@ -71,7 +71,7 @@ url_video: ""
 <br/>
 
 
-<DIV align="center" >
+<body scroll="no" style="overflow: hidden">
   <table border="1" cellspacing="0" frame=void rules = all>
     <tr>
       <td align="center" width = "200" > Method </td>
@@ -109,7 +109,7 @@ url_video: ""
       <td align="center"> 0.6 </td>
     </tr>
   </table>
-</DIV>
+</body>
 
 
 <font size="4" font face = "Times New Roman">
