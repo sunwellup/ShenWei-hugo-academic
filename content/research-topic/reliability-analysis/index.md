@@ -35,12 +35,13 @@ url_video: ""
 <DIV align="justify">
   I began to learn and study reliability analysis when I was a master student. The reliability analysis of an engineering system or component is typically based on a model that describes structural response $ Y $ as a function of basic random $ \boldsymbol{X} $ variables, which can be given mathematically
   
-    
+  \begin{equation} \small  
   Y = f \left ( \boldsymbol{X} \right )
   \tag{1}
   \end{equation}
   
   The probability of failure $ P_{f} $ is defined as the probability of structural response being in a domain of unacceptable operation, such as response exceeding a critical threshold, $ y_{c} $, and it is typically defined in terms of a limit state function
+
   \begin{equation} \small
   g \left ( \boldsymbol{X} \right ) = y_{c} - f \left ( \boldsymbol{X} \right ) \quad
   {\rm such\ that}\ P_{f} = {\rm Pr}\left [ g \left ( \boldsymbol{X} \right ) \leq 0 \right ]
@@ -66,21 +67,21 @@ url_video: ""
   </DIV>
   <br/>
   and the results obtained by MCS, proposed method, RSM with only quadratic term (QP) and complete quadratic term (CQP) are shown in Table 1,where $ \beta,\ k_final,\ and\ N  $ is the Hasofer-Lind Rackwitz-Fiessler(HL-RF) reliability index, the number of iterations and function evaluations. It can be observed that the proposed method is able to obtain accurate result with less function evaluations
-  <table border="1" width = "600" align="center">
+  <table border="1" align="center">
     <caption>Table 1 Results of numerical example</caption>
     <tr>
-      <td align="center"> Method </td>
-      <td align="center"> $ k_{final} $ </td>
-      <td align="center"> $ N $ </td>
-      <td align="center"> $ \beta $ </td>
-      <td align="center"> Error(%) </td>
+      <td align="center" width = "200" > Method </td>
+      <td align="center" width = "200" > $ k_{final} $ </td>
+      <td align="center" width = "200" > $ N $ </td>
+      <td align="center" width = "200" > $ \beta $ </td>
+      <td align="center" width = "200" > Error(%) </td>
     </tr>
     <tr>
-      <td align="center"> MCS </td>
-      <td align="center"> -- </td>
-      <td align="center"> $ 10^7 $ </td>
-      <td align="center"> 2.725 </td>
-      <td align="center"> -- </td>
+      <td align="center" width = "200" > MCS </td>
+      <td align="center" width = "200" > -- </td>
+      <td align="center" width = "200" > $ 10^7 $ </td>
+      <td align="center" width = "200" > 2.725 </td>
+      <td align="center" width = "200" > -- </td>
     </tr>
     <tr>
       <td align="center"> RSM with QP </td>
