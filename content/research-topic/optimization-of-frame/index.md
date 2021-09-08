@@ -51,12 +51,12 @@ url_video: ""
     <b>FIG.2:</b> Intermediate solutions of numerical example
   </DIV> 
   <br/>
-  Moreover, many researches have been proposed to consider uncertainty in structural optimization, such as robust optimization, reliability-based optimization and the worst-case design, and I am also working on this research topic right now. Although incorporating uncertainty into structural optimization is not a trival task, I would like to keep my research interest on this area with following directions 
-<ul>
-  <li> non-probabilistic model based/sample-based structural optimization under uncertainty</li>
-  <li> nonlinear/dynamic structural optimization under uncertainty </li>
-  <li> combining machining-learning technique with robust/reliability-based optimization</li>
-</ul>  
+  Moreover, many researches have been proposed to consider uncertainty in structural optimization, such as robust optimization, reliability-based optimization and the worst-case design, and I am also working on this research topic right now [3][4]. However, incorporating uncertainty into structural optimization is not a trival task expecially the diffculties in efficiency, accuracy and convergence when applied to large-scale problem, I would like to dig more in this research direction.<br/>
+  <br/>
+  Reference
+  [] 
+
+
 </DIV>  
 
 
