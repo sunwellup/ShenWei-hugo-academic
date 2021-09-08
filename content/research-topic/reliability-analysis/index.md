@@ -113,10 +113,6 @@ url_video: ""
   </table>
 </DIV>
 
-Name    | Age
---------|------
-Bob     | 27
-Alice   | 23
 
 
 <font size="4" font face = "Times New Roman">
