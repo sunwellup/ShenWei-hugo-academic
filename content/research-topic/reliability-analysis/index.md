@@ -72,7 +72,7 @@ url_video: ""
 
 
 <DIV align="center" >
-  <table border="1" cellspacing="0" frame=void>
+  <table border="1" cellspacing="0" frame=void rules = all>
     <tr>
       <td align="center" width = "200" > Method </td>
       <td align="center" width = "200" > $ k_{final} $ </td>
