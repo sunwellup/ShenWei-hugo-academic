@@ -112,7 +112,12 @@ url_video: ""
     </tr>
   </table>
 
-
+\begin{tabular}{|c|c|c|}
+\hline 2&9&4\\
+\hline 7&5&3\\
+\hline 6&1&8\\
+\hline
+\end{tabular}
 
 <font size="4" font face = "Times New Roman">
 <DIV align="justify">
