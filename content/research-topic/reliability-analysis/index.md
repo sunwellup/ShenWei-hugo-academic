@@ -67,8 +67,8 @@ url_video: ""
   </DIV>
   <br/>
   and the results obtained by MCS, proposed method, RSM with only quadratic term (QP) and complete quadratic term (CQP) are shown in Table 1,where $ \beta,\ k_final,\ and\ N  $ is the Hasofer-Lind Rackwitz-Fiessler(HL-RF) reliability index, the number of iterations and function evaluations. It can be observed that the proposed method is able to obtain accurate result with less function evaluations
+</DIV> 
 
-<body>
   <table border="1" align="center">
     <caption>Table 1 Results of numerical example</caption>
     <tr>
@@ -107,7 +107,9 @@ url_video: ""
       <td align="center"> 0.6 </td>
     </tr>
   </table>
-</body>
+  
+<font size="4" font face = "Times New Roman">
+<DIV align="justify">
 
   
   However, the method only consider component reliability analysis within linear elasticity case. In the future I would like to dig more about structural reliability analysis in system or dynamic case.
