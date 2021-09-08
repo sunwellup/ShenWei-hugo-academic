@@ -73,7 +73,7 @@ url_video: ""
 <DIV align="CENTER">
     <b>Table 1</b> Results summary of numerical example
 </DIV>
-<DIV  scroll = "" style="overflow-x: hidden">
+<DIV  scroll = "no" style="overflow-x: hidden">
   <table border="1" cellspacing="0" frame=hsides rules = all>
     <tr>
       <td align="center" width = "200" > Method </td>
