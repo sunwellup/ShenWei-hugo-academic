@@ -75,7 +75,7 @@ url_video: ""
       <td> $ k_{final} $ </td>
       <td> $ N $ </td>
       <td> $ \beta $ </td>
-      <td> Error(%) <>
+      <td> Error(%) </td>
     </tr>
     <tr>
       <td> MCS </td>
