@@ -68,9 +68,8 @@ url_video: ""
   <br/>
   and the results obtained by MCS, proposed method, RSM with only quadratic term (QP) and complete quadratic term (CQP) are shown in Table 1,where $ \beta,\ k_final,\ and\ N  $ is the Hasofer-Lind Rackwitz-Fiessler(HL-RF) reliability index, the number of iterations and function evaluations. It can be observed that the proposed method is able to obtain accurate result with less function evaluations
 </DIV> 
-<body scroll = "no">
+
   <table align="center">
-    <caption>Table 1 Results of numerical example</caption>
     <tr>
       <td align="center" width = "200" > Method </td>
       <td align="center" width = "200" > $ k_{final} $ </td>
@@ -107,7 +106,7 @@ url_video: ""
       <td align="center"> 0.6 </td>
     </tr>
   </table>
-</body>
+
 
 
 <font size="4" font face = "Times New Roman">
