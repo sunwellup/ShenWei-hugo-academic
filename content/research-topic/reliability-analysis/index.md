@@ -71,8 +71,8 @@ url_video: ""
 <br/>
 
 
-<body scroll="no" style="overflow: hidden">
-  <table border="1" cellspacing="0" frame=void rules = all>
+<DIV scroll="no" style="overflow: hidden">
+  <table border="1" cellspacing="0" frame=hsides rules = all>
     <tr>
       <td align="center" width = "200" > Method </td>
       <td align="center" width = "200" > $ k_{final} $ </td>
@@ -109,7 +109,7 @@ url_video: ""
       <td align="center"> 0.6 </td>
     </tr>
   </table>
-</body>
+</DIV>
 
 
 <font size="4" font face = "Times New Roman">
