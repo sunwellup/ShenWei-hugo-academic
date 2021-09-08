@@ -53,7 +53,7 @@ url_video: ""
   <br/>
   Moreover, many researches have been proposed to consider uncertainty in structural optimization, such as robust optimization, reliability-based optimization and the worst-case design, and I am also working on this research topic right now [3][4]. However, incorporating uncertainty into structural optimization is not a trival task expecially the diffculties in efficiency, accuracy and convergence when applied to large-scale problem, I would like to dig more in this research direction.<br/>
   <br/>
-  Reference
+  Reference<br/>
   [] 
 
 
