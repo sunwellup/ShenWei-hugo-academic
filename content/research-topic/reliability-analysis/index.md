@@ -11,7 +11,7 @@ date: "2021-08-30T00:00:00Z"
 external_link: ""
 
 image:
-  caption: Steel frame model
+  caption: Reliability analysis of cantilever beam
   focal_point: Smart
 
 links:
