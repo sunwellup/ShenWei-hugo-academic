@@ -28,7 +28,7 @@ subtitle:
 # design:
 #  columns: '1'
 ---
-<font size="6" font face = "Times New Roman">
+<font size="5" font face = "Times New Roman">
 <DIV align="justify">
 <a href="https://www.issmo.net/" target="_blank" style="text-decoration:underline;">ISSMO: International Society for Structural and Multidisciplinary Optimization</a><br>  
 <a href="http://assmo.org/" target="_blank" style="text-decoration:underline;">ASSMO: Asian Society of Structural and Multidisciplinary Optimization</a><br> 
