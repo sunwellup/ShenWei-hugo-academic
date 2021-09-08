@@ -67,6 +67,8 @@ url_video: ""
   </DIV>
   <br/>
   and the results obtained by MCS, proposed method, RSM with only quadratic term (QP) and complete quadratic term (CQP) are shown in Table 1,where $ \beta,\ k_final,\ and\ N  $ is the Hasofer-Lind Rackwitz-Fiessler(HL-RF) reliability index, the number of iterations and function evaluations. It can be observed that the proposed method is able to obtain accurate result with less function evaluations
+
+<body>
   <table border="1" align="center">
     <caption>Table 1 Results of numerical example</caption>
     <tr>
@@ -105,41 +107,7 @@ url_video: ""
       <td align="center"> 0.6 </td>
     </tr>
   </table>
-
-<table>
-   <tr>
-        <th width=20%>列宽 `width=20%`</th>
-        <th width=45% style="text-align:center">表头居中 `style="text-align:center"`</th>
-        <th widht=20% style="text-align:right">居右</th>
-        <th widht=5%>列3</th>
-   </tr>
-   <tr>
-        <td >设置背景色 </td>
-        <td bgcolor=rgb(92, 184, 92)>`bgcolor=rgb(92, 184, 92)`</td>
-        <td bgcolor=#eea236>`bgcolor=#eea236`</td>
-        <td bgcolor=pink>`bgcolor=pink`</td>
-   </tr>
-   <tr>
-        <td>**合并列**</td>
-        <td colspan=3 align=center> `起始列colspan=2` `align=center`</td>
-   </tr>
-   <tr>
-        <td rowspan=3>**合并行** <br>`起始行rowspan=3`</td>
-        <td align=center>`align=center`对`th`无效</td>
-        <td>cell</td>
-        <td>cell</td>
-   </tr>
-   <tr>
-        <td style="text-align:right">`style="text-align:right"`</td>
-        <td>cell</td>
-        <td rowspan=2>合并行 `rowspan=2`</td>
-   </tr>
-   <tr>
-        <td>cell</td>
-        <td>cell</td>
-   </tr>
-   <tr><td>cell</td><td>cell</td><td>cell</td><td>cell</td></tr>
-</table>
+</body>
 
   
   However, the method only consider component reliability analysis within linear elasticity case. In the future I would like to dig more about structural reliability analysis in system or dynamic case.
