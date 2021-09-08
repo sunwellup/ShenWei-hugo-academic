@@ -68,42 +68,42 @@ url_video: ""
   </DIV>
 
   and the results obtained by MCS, proposed method, RSM with only quadratic term (QP) and complete quadratic term (CQP) are shown in Table 1,where $ \beta,\ k_final,\ and\ N  $ is the Hasofer-Lind Rackwitz-Fiessler(HL-RF) reliability index, the number of iterations and function evaluations. It can be observed that the proposed method is able to obtain accurate result with less function evaluations
-  <table border="1">
+  <table border="1" width = "600" align="center">
     <caption>Table 1 Results of numerical example</caption>
     <tr>
-      <td> Method </td>
-      <td> $ k_{final} $ </td>
-      <td> $ N $ </td>
-      <td> $ \beta $ </td>
-      <td> Error(%) </td>
+      <td align="center"> Method </td>
+      <td align="center"> $ k_{final} $ </td>
+      <td align="center"> $ N $ </td>
+      <td align="center"> $ \beta $ </td>
+      <td align="center"> Error(%) </td>
     </tr>
     <tr>
-      <td> MCS </td>
-      <td> -- </td>
-      <td> $ 10^7 $ </td>
-      <td> 2.725 </td>
-      <td> -- </td>
+      <td align="center"> MCS </td>
+      <td align="center"> -- </td>
+      <td align="center"> $ 10^7 $ </td>
+      <td align="center"> 2.725 </td>
+      <td align="center"> -- </td>
     </tr>
     <tr>
-      <td> RSM with QP </td>
-      <td> 3 </td>
-      <td> 23 </td>
-      <td> 2.710 </td>
-      <td> 0.6 </td>
+      <td align="center"> RSM with QP </td>
+      <td align="center"> 3 </td>
+      <td align="center"> 23 </td>
+      <td align="center"> 2.710 </td>
+      <td align="center"> 0.6 </td>
     </tr>
     <tr>
-      <td> RSM with CQP </td>
-      <td> 3 </td>
-      <td> 39 </td>
-      <td> 2.619 </td>
-      <td> 3.9 </td>
+      <td align="center"> RSM with CQP </td>
+      <td align="center"> 3 </td>
+      <td align="center"> 39 </td>
+      <td align="center"> 2.619 </td>
+      <td align="center"> 3.9 </td>
     </tr>
     <tr>
-      <td> proposed method </td>
-      <td> 3 </td>
-      <td> 25 </td>
-      <td> 2.710 </td>
-      <td> 0.6 </td>
+      <td align="center"> proposed method </td>
+      <td align="center"> 3 </td>
+      <td align="center"> 25 </td>
+      <td align="center"> 2.710 </td>
+      <td align="center"> 0.6 </td>
     </tr>
   </table>
   However, the method only consider component reliability analysis within linear elasticity case. In the future I would like to dig more about structural reliability analysis in system or dynamic case.
