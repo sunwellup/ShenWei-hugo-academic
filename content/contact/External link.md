@@ -1,7 +1,7 @@
 ---
 # An instance of the Contact widget.
 # Documentation: https://wowchemy.com/docs/page-builder/
-widget: pages
+widget: blank
 
 # This file represents a page section.
 headless: true
@@ -28,11 +28,10 @@ subtitle:
 # design:
 #  columns: '1'
 ---
-<font size="4" font face = "Times New Roman">
+<font size="6" font face = "Times New Roman">
 <DIV align="justify">
 <a href="https://www.issmo.net/" target="_blank" style="text-decoration:underline;">ISSMO: International Society for Structural and Multidisciplinary Optimization</a><br>  
 <a href="http://assmo.org/" target="_blank" style="text-decoration:underline;">ASSMO: Asian Society of Structural and Multidisciplinary Optimization</a><br> 
-Reserc:<br/>
 <a href="http://assmo.org/" target="_blank" style="text-decoration:underline;">Homepage of Building Mechanics Group, Kyoto university </a><br>
 <a href="http://assmo.org/" target="_blank" style="text-decoration:underline;">Homepage of Dr. Shaojun Zhu </a>(Steel structure, Machine learning based optimization)<br> 
 
