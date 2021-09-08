@@ -35,17 +35,15 @@ url_video: ""
 <DIV align="justify">
   I began to learn and study reliability analysis when I was a master student. The reliability analysis of an engineering system or component is typically based on a model that describes structural response $ Y $ as a function of basic random $ \boldsymbol{X} $ variables, which can be given mathematically
   
-  \begin{equation} \small
+    
   Y = f \left ( \boldsymbol{X} \right )
   \tag{1}
   \end{equation}
   
   The probability of failure $ P_{f} $ is defined as the probability of structural response being in a domain of unacceptable operation, such as response exceeding a critical threshold, $ y_{c} $, and it is typically defined in terms of a limit state function
-
-  \boldsymbol{X} $ variables, which can be given mathematically
   \begin{equation} \small
   g \left ( \boldsymbol{X} \right ) = y_{c} - f \left ( \boldsymbol{X} \right ) \quad
-  {\rm such that} P_{f} = {\rm Pr}\left [ g \left ( \boldsymbol{X} \right ) \leq 0 \right ]
+  {\rm such\ that}\ P_{f} = {\rm Pr}\left [ g \left ( \boldsymbol{X} \right ) \leq 0 \right ]
   \tag{2}
   \end{equation}
   
@@ -61,12 +59,12 @@ url_video: ""
   \end{equation}
 
   <figure class="half" style="display:flex; align-items: flex-end">
-    <img src="reliability-2.jpg" style ="width: 80%; height: 80%"> 
+    <img src="reliability-2.jpg" style ="width: 50%; height: 50%"> 
   </figure>
   <DIV align="CENTER">
     <b>FIG.1:</b> The model of numerical example
   </DIV>
-
+  <br/>
   and the results obtained by MCS, proposed method, RSM with only quadratic term (QP) and complete quadratic term (CQP) are shown in Table 1,where $ \beta,\ k_final,\ and\ N  $ is the Hasofer-Lind Rackwitz-Fiessler(HL-RF) reliability index, the number of iterations and function evaluations. It can be observed that the proposed method is able to obtain accurate result with less function evaluations
   <table border="1" width = "600" align="center">
     <caption>Table 1 Results of numerical example</caption>
@@ -108,9 +106,8 @@ url_video: ""
   </table>
   However, the method only consider component reliability analysis within linear elasticity case. In the future I would like to dig more about structural reliability analysis in system or dynamic case.
 
-
   </br>
-  Reference
+  Reference <br/>
   [1] </br>
   [2] </br>
 
