@@ -70,7 +70,9 @@ url_video: ""
 </DIV> 
 <br/>
 
-
+<DIV align="CENTER">
+    <b>Table 1</b> Results summary of numerical example
+  </DIV>
 <DIV scroll="no" style="overflow: hidden">
   <table border="1" cellspacing="0" frame=hsides rules = all>
     <tr>
