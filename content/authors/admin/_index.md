@@ -55,7 +55,7 @@ email: ""
 highlight_name: false
 ---
 <DIV align="justify">
-  ● I am a Ph.D. student in the Department of Architecture and Architectural Engineering at Kyoto University, supervised by <a href="http://www.se-lab.archi.kyoto-u.ac.jp/ohsaki/index-e.html" target="_blank" style="color:#2D7BD1;text-decoration:underline;">Prof.Ohsaki Makoto</a>.
+  ● I am currently a Ph.D. student in the Department of Architecture and Architectural Engineering at Kyoto University, supervised by <a href="http://www.se-lab.archi.kyoto-u.ac.jp/ohsaki/index-e.html" target="_blank" style="color:#2D7BD1;text-decoration:underline;">Prof.Ohsaki Makoto</a>.
 <DIV> <br />
   
 <DIV align="justify">
