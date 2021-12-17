@@ -27,7 +27,7 @@ publishDate: "2021-08-31T00:00:00Z"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: International Journal for Numerical Methods in Engineering
+publication: Engineering Computations
 # publication_short: In *ICW*
 abstract: <DIV align="justify"> Response surface method (RSM) is one of the surrogate model based methods for structural reliability analysis. However, balancing its accuracy and efficiency is still a challenge. In this paper, a new response surface method based on adaptive bivariate dimension-reduction is proposed. An adaptive bivariate cut-HDMR for multivariate response surface function is constructed by combining the cut-high dimensional model representation (cut-HDMR) and the criterion of delineating the existence of cross terms. The component functions in the adaptive bivariate cut-HDMR are approximated by polynomials, and a new selection strategy of sampling points is introduced to calculate the unknown coefficients of the component functions. The global response surface is constructed without unnecessary terms and is used for reliability analysis with an iterative scheme. Several examples are investigated to verify the accuracy, efficiency and robustness of the proposed method.
   <DIV>
