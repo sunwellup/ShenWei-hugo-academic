@@ -1,5 +1,5 @@
 ---
-title: Robust geometry and topology optimization of plane frames using order statistics and force density method with global stability constraint
+title: Quantile-based sequential optimization and reliability assessment for shape and topology optimization of plane frames using L-moments
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
@@ -13,11 +13,11 @@ authors:
 # - "Equal contribution"
 # - "Equal contribution"
 
-date: "2020-07-16T00:00:00Z"
+date: "2021-12-17T00:00:00Z"
 doi: "https://doi.org/10.1002/nme.6676"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2021-08-31T00:00:00Z"
+publishDate: "2022T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -26,9 +26,9 @@ publishDate: "2021-08-31T00:00:00Z"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: International Journal for Numerical Methods in Engineering
+publication: Structural Safety
 # publication_short: In *ICW*
-abstract: <DIV align="justify"> This paper presents a worst case approach for robust geometry and topology optimization of plane frames with global stability constraint. Uncertainty is assumed to exist in the nodal locations and cross‐sectional areas, and the worst values of the objective and stability constraint functions are relaxed to the quantile structural responses represented by the order statistics with given robustness and confidence levels. In order to alleviate the difficulty caused by melting nodes to some extent, the force density method is applied to an auxiliary truss model for geometry optimization of the frame, and the closely spaced nodes are merged. A method is presented for generating correlated imperfections for the nodal locations along each member, and a penalization approach is proposed for geometrical stiffness matrix to exclude superficial local buckling. It is demonstrated in the numerical examples that the result of robust optimization obtained by the proposed method is less sensitive to the uncertainty, and the stability constraint is also satisfied under uncertainty with the specified robustness and confidence levels.
+abstract: <DIV align="justify"> Uncertainty is inevitable in the real physical world, and it is necessary to take into account its effects on the structural design and optimization processes. In this study a reliability-based shape and topology optimization method is proposed for plane frames. The reliability constraint is expressed in terms of quantile which is estimated by using the maximum entropy method subject to constraints on the sample linear moments (L-moments) with small sample size. An iterative scheme of sequential optimization and reliability assessment is employed to solve a series of deterministic optimization problems with shifted boundaries on the constraints. Derivative of the quantile function is obtained by solving a convex optimization problem, instead of solving a system of nonlinear equations. Force density method is applied to an auxiliary truss model for simultaneous shape and topology optimization of plane frames to alleviate the difficulties caused by melting nodes. It is demonstrated by the benchmark and numerical examples that the quantile function can be appropriately estimated by the proposed method, and the solution satisfying the required reliability constraint can also be achieved.
   <DIV>
 
 # Summary. An optional shortened abstract.
@@ -44,7 +44,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'pdf/Robust-geometry-and-topology-optimization-global-stability-constraint.pdf'
+url_pdf: 'pdf/Shen-Ohsaki-Yamakawa2022-StructuralSafety.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
