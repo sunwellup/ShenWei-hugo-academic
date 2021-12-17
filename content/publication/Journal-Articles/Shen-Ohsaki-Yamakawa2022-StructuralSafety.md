@@ -44,7 +44,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'pdf/Shen-Ohsaki-Yamakawa2022-StructuralSafety.pdf'
+url_pdf: ''
 url_code: ''
 url_dataset: ''
 url_poster: ''
