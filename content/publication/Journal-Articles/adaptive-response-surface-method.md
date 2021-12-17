@@ -45,7 +45,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
+url_pdf: 'pdf/A new response surface method based on the adaptive bivariate cut-HDMR.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
