@@ -32,7 +32,7 @@ subtitle:
 <DIV align="justify">
 <a href="https://www.issmo.net/" target="_blank" style="text-decoration:underline;">ISSMO: International Society for Structural and Multidisciplinary Optimization</a><br>  
 <a href="http://assmo.org/" target="_blank" style="text-decoration:underline;">ASSMO: Asian Society of Structural and Multidisciplinary Optimization</a><br> 
-<a href="http://assmo.org/" target="_blank" style="text-decoration:underline;">Homepage of Building Mechanics Group, Kyoto university </a><br>
+<a href="http://www.se-lab.archi.kyoto-u.ac.jp/en/;">Homepage of Building Mechanics Group, Kyoto university </a><br>
 <a href="https://www.zhushaojun.com/index_eng.html" target="_blank" style="text-decoration:underline;">Homepage of Dr. Shaojun Zhu </a>(Aluminum Alloy Reticulated Structures, Machine learning based optimization)<br> 
 
 </DIV>
