@@ -15,7 +15,8 @@ header:
 ---
 
 <DIV align="justify">
-<a href="WCSMO13-0521.pdf" target="_blank">Shape and topology optimization of frame structures using force density method.</a><br>  
+
+<a href="WCSMO13-0521.pdf" target="_blank" font face = "Times New Roman"><b>Shape and topology optimization of frame structures using force density method</b></a><br>  
 
 
 </DIV>
