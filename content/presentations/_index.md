@@ -15,7 +15,10 @@ header:
 ---
 
 <DIV align="justify">
-<b><a href="WCSMO13-0521.pdf" target="_blank" font size = "14" font face = "Times New Roman" class="underline-on-hover">Shape and topology optimization of frame structures using force density method</a></b><br> 
+<font size="16" face="Times New Roman">
+<b><a href="WCSMO13-0521.pdf" target="_blank" class="underline-on-hover">Shape and topology optimization of frame structures using force density method</a></b>
+</font>
+<br> 
 In Proc. 13th World Congress of Structural and Multidisciplinary Optimization (WCSMO13), Beijing, China, Paper ID: A240449, 2019<br>
 <br>
 
