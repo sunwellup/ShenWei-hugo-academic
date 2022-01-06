@@ -13,6 +13,12 @@ header:
   caption: ""
   image: ""
 ---
+<style>
+  a:link {text-decoration: none;}
+  a:visited {text-decoration: none;}
+  a:hover {text-decoration: underline;}
+  a:active {text-decoration: underline;}
+</style>
 
 <font size="5" font face = "Times New Roman">
 <DIV align="justify">
