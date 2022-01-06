@@ -54,6 +54,12 @@ In In Summaries of technical papers of annual meeting ( Structure I ), Architect
 </font><br> 
 <br>
 
-
+<font size="5" face = "Times New Roman">
+<b><a href="AIJ-20210907.pdf" target="_blank">Sequential optimization and reliability assessment for shape and topology of plane frames using L-moments</a></b><br>
+</font>  
+<font size="2" face = "Times New Roman">
+In In Summaries of technical papers of annual meeting ( Structure I ), Architectural Institute of Japan (AIJ), Tokai, Japan,  2021
+</font><br> 
+<br>
 
 </DIV>
