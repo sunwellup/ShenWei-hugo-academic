@@ -20,9 +20,11 @@ header:
   a:active {text-decoration: underline;}
 </style>
 
-<font size="7" font face = "Times New Roman">
+
 <DIV align="justify">
-<b><a href="WCSMO13-0521.pdf" target="_blank">Shape and topology optimization of frame structures using force density method</a></b><br>  
+<font size="6" face = "Times New Roman">
+<b><a href="WCSMO13-0521.pdf" target="_blank">Shape and topology optimization of frame structures using force density method</a></b><br>
+</font>  
 
 
 </DIV>
