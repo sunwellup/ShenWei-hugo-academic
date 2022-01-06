@@ -30,6 +30,14 @@ In Proc. 13th World Congress of Structural and Multidisciplinary Optimization (W
 </font><br> 
 <br> 
 
+<font size="5" face = "Times New Roman">
+<b><a href="ACSMO20201018.pdf" target="_blank">Multiobjective Robust Optimization of Plane Frame using Order Statistics</a></b><br>
+</font>  
+<font size="2" face = "Times New Roman">
+In Asian Congress of Structural and Multidisciplinary Optimization 2020 (ACSMO2020), Seoul, Korea (Online), 2020
+</font><br> 
+<br> 
+
 
 
 
