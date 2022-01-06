@@ -58,7 +58,15 @@ In In Summaries of technical papers of annual meeting ( Structure I ), Architect
 <b><a href="AIJ-20210907.pdf" target="_blank">Sequential optimization and reliability assessment for shape and topology of plane frames using L-moments</a></b><br>
 </font>  
 <font size="2" face = "Times New Roman">
-In In Summaries of technical papers of annual meeting ( Structure I ), Architectural Institute of Japan (AIJ), Tokai, Japan,  2021
+In Summaries of technical papers of annual meeting ( Structure I ), Architectural Institute of Japan (AIJ), Tokai, Japan,  2021
+</font><br> 
+<br>
+
+<font size="5" face = "Times New Roman">
+<b><a href="AIJ-20210907.pdf" target="_blank">A virtual element method for 2D contact analysis</a></b><br>
+</font>  
+<font size="2" face = "Times New Roman">
+In summer seminar of shell and spatial construction, Japan,  2021
 </font><br> 
 <br>
 
