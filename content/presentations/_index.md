@@ -38,6 +38,21 @@ In Asian Congress of Structural and Multidisciplinary Optimization 2020 (ACSMO20
 </font><br> 
 <br> 
 
+<font size="5" face = "Times New Roman">
+<b><a href="WCSMO14-20210515.pdf" target="_blank">Worst-case design of plane frames using order statistics</a></b><br>
+</font>  
+<font size="2" face = "Times New Roman">
+In Proc. 14th World Congress of Structural and Multidisciplinary Optimization (WCSMO14), Boulder, CO, USA (On line), 2021
+</font><br> 
+<br> 
+
+<font size="5" face = "Times New Roman">
+<b><a href="AIJ-20210907.pdf" target="_blank">Sequential optimization and reliability assessment for shape and topology of plane frames using L-moments</a></b><br>
+</font>  
+<font size="2" face = "Times New Roman">
+In In Summaries of technical papers of annual meeting ( Structure I ), Architectural Institute of Japan (AIJ), Tokai, Japan,  2021
+</font><br> 
+<br>
 
 
 
