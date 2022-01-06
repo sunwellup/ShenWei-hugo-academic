@@ -22,7 +22,7 @@ header:
 
 <font size="10" font face = "Times New Roman">
 <DIV align="justify">
-<a href="WCSMO13-0521.pdf" target="_blank">Shape and topology optimization of frame structures using force density method</a><br>  
+<b><a href="WCSMO13-0521.pdf" target="_blank">Shape and topology optimization of frame structures using force density method</a></b><br>  
 
 
 </DIV>
