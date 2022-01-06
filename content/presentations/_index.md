@@ -20,7 +20,7 @@ header:
   a:active {text-decoration: underline;}
 </style>
 
-<font size="5" font face = "Times New Roman">
+<font size="10" font face = "Times New Roman">
 <DIV align="justify">
 <a href="WCSMO13-0521.pdf" target="_blank">ISSMO: International Society for Structural and Multidisciplinary Optimization</a><br>  
 
